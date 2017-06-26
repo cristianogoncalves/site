@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Leandro Pereira</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="c79ffa43-5c84-467b-a9d1-963657098662"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"eb400c50-383b-46b9-b170-e11f3585fe29":{"roots":{"references":[{"attributes":{"dimension":1,"plot":{"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},"ticker":{"id":"878d6c00-6dde-43a5-9b2f-72a6f3e9e028","type":"BasicTicker"}},"id":"ca7f8dc0-0b02-40cf-bd14-ed4d2797de52","type":"Grid"},{"attributes":{"formatter":{"id":"997ce4b7-f2db-4cdf-b1fb-e50876ff0a67","type":"BasicTickFormatter"},"plot":{"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},"ticker":{"id":"42475b5b-4414-42e6-bd94-d0c26e68e01f","type":"BasicTicker"}},"id":"13930e88-c657-4370-a048-f397777fbba7","type":"LinearAxis"},{"attributes":{"angle":{"units":"rad","value":-1.5707963267948966},"text_color":{"value":"red"},"text_font_size":{"value":"9pt"},"x":{"field":"x"},"y":{"field":"y"}},"id":"f65be412-5ca1-4dc2-b358-52f874744f69","type":"Text"},{"attributes":{"callback":null,"column_names":["left","right","top"],"data":{"left":{"__ndarray__":"AAAAAAAAAABf6IVe6IXuP1/ohV7ohf4/R27kRm7kBkBf6IVe6IUOQDuxEzuxExNAR27kRm7kFkBTK7VSK7UaQF/ohV7ohR5AtVIrtVIrIUA7sRM7sRMjQMEP/MAP/CRAR27kRm7kJkA=","dtype":"float64","shape":[13]},"right":{"__ndarray__":"X+iFXuiF7j9f6IVe6IX+P0du5EZu5AZAX+iFXuiFDkA7sRM7sRMTQEdu5EZu5BZAUyu1Uiu1GkBf6IVe6IUeQLVSK7VSKyFAO7ETO7ETI0DBD/zAD/wkQEdu5EZu5CZAzczMzMzMKEA=","dtype":"float64","shape":[13]},"top":{"__ndarray__":"acszUNac0j/ObLuZg2jOP34EFHtz5Mo/QrfODYV2uj/jXXFEfK26P/hSCJbrxq8/nyGhs6vTlD9yAQ7krA2LP5Lgc6LXwHM/Anv+fLScRD+tTlNRm3s7P61OU1Gbeys/Anv+fLScRD8=","dtype":"float64","shape":[13]}}},"id":"3406e6db-1b36-4f46-8bb1-484596378dfa","type":"ColumnDataSource"},{"attributes":{"background_fill_color":{"value":"white"},"below":[{"id":"13930e88-c657-4370-a048-f397777fbba7","type":"LinearAxis"}],"left":[{"id":"51fce67b-b9e0-499e-bdd6-269556588e9b","type":"LinearAxis"}],"plot_height":300,"plot_width":300,"renderers":[{"id":"13930e88-c657-4370-a048-f397777fbba7","type":"LinearAxis"},{"id":"f9201300-121f-45ec-9803-e388d68ab61c","type":"Grid"},{"id":"51fce67b-b9e0-499e-bdd6-269556588e9b","type":"LinearAxis"},{"id":"ca7f8dc0-0b02-40cf-bd14-ed4d2797de52","type":"Grid"},{"id":"4f723d1b-9e4d-4a18-ab11-083927c8ce8c","type":"GlyphRenderer"},{"id":"e6da9623-076d-4e6e-ac39-86772cec9abf","type":"GlyphRenderer"},{"id":"15fb1f6f-1bf6-4d14-9c35-84dfe8766b00","type":"GlyphRenderer"}],"title":{"id":"08df9354-a3d5-4fe0-a0f1-25cad6ebd412","type":"Title"},"tool_events":{"id":"14f4eebd-04d9-42cb-a7d9-e9a3fb6c6ea3","type":"ToolEvents"},"toolbar":{"id":"5d33bda5-cbdf-454d-acb0-9bb9d445333b","type":"Toolbar"},"x_range":{"id":"b07f11d6-d0ef-443f-befd-8b7875bad806","type":"DataRange1d"},"y_range":{"id":"48e89f21-d865-42c6-be9f-d1251a59734f","type":"DataRange1d"}},"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"plot":{"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},"tooltips":[["index","$index"],["(x,y)","($x{int}, $y{1.11})"]]},"id":"8e79e86e-d7ba-46b2-9bb7-2856f8d663e7","type":"HoverTool"},{"attributes":{"plot":null,"text":"Leandro Pereira - C$ 5.86"},"id":"08df9354-a3d5-4fe0-a0f1-25cad6ebd412","type":"Title"},{"attributes":{},"id":"29268370-4807-4dc8-bd52-77dabbac93f0","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"752a5563-e00e-4366-98b8-9f77c2e228f4","type":"ColumnDataSource"},"glyph":{"id":"f65be412-5ca1-4dc2-b358-52f874744f69","type":"Text"},"hover_glyph":null,"muted_glyph":null},"id":"15fb1f6f-1bf6-4d14-9c35-84dfe8766b00","type":"GlyphRenderer"},{"attributes":{},"id":"878d6c00-6dde-43a5-9b2f-72a6f3e9e028","type":"BasicTicker"},{"attributes":{"data_source":{"id":"899e2911-cf70-4070-b7de-dde2f3954732","type":"ColumnDataSource"},"glyph":{"id":"fb80132a-b450-4d22-b233-eba4c21d714d","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"40353c2e-0def-46f3-9e55-720bf14b5374","type":"Line"},"selection_glyph":null},"id":"e6da9623-076d-4e6e-ac39-86772cec9abf","type":"GlyphRenderer"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[2.18948,2.18948],"y":[0,0.30082258064516126]}},"id":"899e2911-cf70-4070-b7de-dde2f3954732","type":"ColumnDataSource"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"8e79e86e-d7ba-46b2-9bb7-2856f8d663e7","type":"HoverTool"}]},"id":"5d33bda5-cbdf-454d-acb0-9bb9d445333b","type":"Toolbar"},{"attributes":{"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"40353c2e-0def-46f3-9e55-720bf14b5374","type":"Line"},{"attributes":{"callback":null},"id":"b07f11d6-d0ef-443f-befd-8b7875bad806","type":"DataRange1d"},{"attributes":{"data_source":{"id":"3406e6db-1b36-4f46-8bb1-484596378dfa","type":"ColumnDataSource"},"glyph":{"id":"9b461c6b-bd5a-4985-9638-ad76d529a25e","type":"Quad"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"5f870565-cea9-4a76-a38b-938bc7cf3d3d","type":"Quad"},"selection_glyph":null},"id":"4f723d1b-9e4d-4a18-ab11-083927c8ce8c","type":"GlyphRenderer"},{"attributes":{"bottom":{"value":0},"fill_color":{"value":"#2171b5"},"left":{"field":"left"},"line_color":{"value":"grey"},"right":{"field":"right"},"top":{"field":"top"}},"id":"9b461c6b-bd5a-4985-9638-ad76d529a25e","type":"Quad"},{"attributes":{"plot":{"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},"ticker":{"id":"42475b5b-4414-42e6-bd94-d0c26e68e01f","type":"BasicTicker"}},"id":"f9201300-121f-45ec-9803-e388d68ab61c","type":"Grid"},{"attributes":{},"id":"14f4eebd-04d9-42cb-a7d9-e9a3fb6c6ea3","type":"ToolEvents"},{"attributes":{"line_color":{"value":"red"},"line_width":{"value":2},"x":{"field":"x"},"y":{"field":"y"}},"id":"fb80132a-b450-4d22-b233-eba4c21d714d","type":"Line"},{"attributes":{"formatter":{"id":"29268370-4807-4dc8-bd52-77dabbac93f0","type":"BasicTickFormatter"},"plot":{"id":"15213f59-5817-4b83-ae13-378d277be930","subtype":"Figure","type":"Plot"},"ticker":{"id":"878d6c00-6dde-43a5-9b2f-72a6f3e9e028","type":"BasicTicker"}},"id":"51fce67b-b9e0-499e-bdd6-269556588e9b","type":"LinearAxis"},{"attributes":{"callback":null,"column_names":["x","y","text"],"data":{"text":["2.19"],"x":[2.3894800000000003],"y":[0.30082258064516126]}},"id":"752a5563-e00e-4366-98b8-9f77c2e228f4","type":"ColumnDataSource"},{"attributes":{},"id":"997ce4b7-f2db-4cdf-b1fb-e50876ff0a67","type":"BasicTickFormatter"},{"attributes":{},"id":"42475b5b-4414-42e6-bd94-d0c26e68e01f","type":"BasicTicker"},{"attributes":{"callback":null},"id":"48e89f21-d865-42c6-be9f-d1251a59734f","type":"DataRange1d"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"right"},"top":{"field":"top"}},"id":"5f870565-cea9-4a76-a38b-938bc7cf3d3d","type":"Quad"}],"root_ids":["15213f59-5817-4b83-ae13-378d277be930"]},"title":"Bokeh Application","version":"0.12.5"}};
+              var render_items = [{"docid":"eb400c50-383b-46b9-b170-e11f3585fe29","elementid":"c79ffa43-5c84-467b-a9d1-963657098662","modelid":"15213f59-5817-4b83-ae13-378d277be930"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

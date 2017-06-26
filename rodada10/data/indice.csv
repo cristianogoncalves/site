@@ -1,0 +1,357 @@
+Jogador,Posicao,Time,Arquivo
+Henrique Dourado,Atacante,Fluminense,./Graficos/Henrique Dourado_Fluminense_Atacante.html
+Luan,Atacante,Grêmio,./Graficos/Luan_Grêmio_Atacante.html
+Diego,Meia,Flamengo,./Graficos/Diego_Flamengo_Meia.html
+Nino Paraíba,Lateral,Ponte Preta,./Graficos/Nino Paraíba_Ponte Preta_Lateral.html
+Lucca,Atacante,Ponte Preta,./Graficos/Lucca_Ponte Preta_Atacante.html
+Vanderlei,Goleiro,Santos,./Graficos/Vanderlei_Santos_Goleiro.html
+Gatito Fernández,Goleiro,Botafogo,./Graficos/Gatito Fernández_Botafogo_Goleiro.html
+Zé Rafael ,Meia,Bahia,./Graficos/Zé Rafael _Bahia_Meia.html
+Borja,Atacante,Palmeiras,./Graficos/Borja_Palmeiras_Atacante.html
+Ramiro,Meia,Grêmio,./Graficos/Ramiro_Grêmio_Meia.html
+Thiago Neves,Meia,Cruzeiro,./Graficos/Thiago Neves_Cruzeiro_Meia.html
+Diego Souza,Meia,Sport,./Graficos/Diego Souza_Sport_Meia.html
+Fernando Prass,Goleiro,Palmeiras,./Graficos/Fernando Prass_Palmeiras_Goleiro.html
+Douglas,Meia,Vasco,./Graficos/Douglas_Vasco_Meia.html
+Clayson,Atacante,Corinthians,./Graficos/Clayson_Corinthians_Atacante.html
+Yerry Mina,Zagueiro,Palmeiras,./Graficos/Yerry Mina_Palmeiras_Zagueiro.html
+Sornoza,Meia,Fluminense,./Graficos/Sornoza_Fluminense_Meia.html
+Fred,Atacante,Atlético-MG,./Graficos/Fred_Atlético-MG_Atacante.html
+Régis,Meia,Bahia,./Graficos/Régis_Bahia_Meia.html
+Luis Fabiano,Atacante,Vasco,./Graficos/Luis Fabiano_Vasco_Atacante.html
+Lucas Pratto,Atacante,São Paulo,./Graficos/Lucas Pratto_São Paulo_Atacante.html
+Alisson,Meia,Cruzeiro,./Graficos/Alisson_Cruzeiro_Meia.html
+Everton,Meia,Flamengo,./Graficos/Everton_Flamengo_Meia.html
+Rodriguinho,Meia,Corinthians,./Graficos/Rodriguinho_Corinthians_Meia.html
+Wilson,Goleiro,Coritiba,./Graficos/Wilson_Coritiba_Goleiro.html
+Robinho,Atacante,Atlético-MG,./Graficos/Robinho_Atlético-MG_Atacante.html
+Edson,Meia,Bahia,./Graficos/Edson_Bahia_Meia.html
+Henrique Almeida,Atacante,Coritiba,./Graficos/Henrique Almeida_Coritiba_Atacante.html
+Pedro Geromel,Zagueiro,Grêmio,./Graficos/Pedro Geromel_Grêmio_Zagueiro.html
+Bruno Henrique,Atacante,Santos,./Graficos/Bruno Henrique_Santos_Atacante.html
+Wendel,Meia,Fluminense,./Graficos/Wendel_Fluminense_Meia.html
+Jucilei,Meia,São Paulo,./Graficos/Jucilei_São Paulo_Meia.html
+Ángel Romero,Atacante,Corinthians,./Graficos/Ángel Romero_Corinthians_Atacante.html
+Bruno Silva,Meia,Botafogo,./Graficos/Bruno Silva_Botafogo_Meia.html
+Leandro Damião,Atacante,Flamengo,./Graficos/Leandro Damião_Flamengo_Atacante.html
+Fagner,Lateral,Corinthians,./Graficos/Fagner_Corinthians_Lateral.html
+Victor Luis,Lateral,Botafogo,./Graficos/Victor Luis_Botafogo_Lateral.html
+Jô,Atacante,Corinthians,./Graficos/Jô_Corinthians_Atacante.html
+Sidcley,Lateral,Atlético-PR,./Graficos/Sidcley_Atlético-PR_Lateral.html
+Ábila,Atacante,Cruzeiro,./Graficos/Ábila_Cruzeiro_Atacante.html
+Nenê,Meia,Vasco,./Graficos/Nenê_Vasco_Meia.html
+Júnior Tavares,Lateral,São Paulo,./Graficos/Júnior Tavares_São Paulo_Lateral.html
+Matheus Savio,Meia,Flamengo,./Graficos/Matheus Savio_Flamengo_Meia.html
+Aranha,Goleiro,Ponte Preta,./Graficos/Aranha_Ponte Preta_Goleiro.html
+Fernandinho,Atacante,Grêmio,./Graficos/Fernandinho_Grêmio_Atacante.html
+Kadu,Zagueiro,Ponte Preta,./Graficos/Kadu_Ponte Preta_Zagueiro.html
+Elias,Meia,Atlético-MG,./Graficos/Elias_Atlético-MG_Meia.html
+David Braz,Zagueiro,Santos,./Graficos/David Braz_Santos_Zagueiro.html
+Léo Moura,Lateral,Grêmio,./Graficos/Léo Moura_Grêmio_Lateral.html
+Igor Rabello,Zagueiro,Botafogo,./Graficos/Igor Rabello_Botafogo_Zagueiro.html
+Reinaldo,Lateral,Chapecoense,./Graficos/Reinaldo_Chapecoense_Lateral.html
+Fábio,Goleiro,Cruzeiro,./Graficos/Fábio_Cruzeiro_Goleiro.html
+Marllon,Zagueiro,Ponte Preta,./Graficos/Marllon_Ponte Preta_Zagueiro.html
+Alejandro Guerra,Meia,Palmeiras,./Graficos/Alejandro Guerra_Palmeiras_Meia.html
+Zeca,Lateral,Santos,./Graficos/Zeca_Santos_Lateral.html
+Geferson,Lateral,Vitória,./Graficos/Geferson_Vitória_Lateral.html
+Ricardo Oliveira,Atacante,Santos,./Graficos/Ricardo Oliveira_Santos_Atacante.html
+Gustavo Scarpa,Meia,Fluminense,./Graficos/Gustavo Scarpa_Fluminense_Meia.html
+Bruno Cortez,Lateral,Grêmio,./Graficos/Bruno Cortez_Grêmio_Lateral.html
+Cássio,Goleiro,Corinthians,./Graficos/Cássio_Corinthians_Goleiro.html
+Marquinhos Gabriel,Meia,Corinthians,./Graficos/Marquinhos Gabriel_Corinthians_Meia.html
+Gilberto ,Lateral,Vasco,./Graficos/Gilberto _Vasco_Lateral.html
+Camilo,Meia,Botafogo,./Graficos/Camilo_Botafogo_Meia.html
+Victor Ferraz,Lateral,Santos,./Graficos/Victor Ferraz_Santos_Lateral.html
+Richarlison ,Atacante,Fluminense,./Graficos/Richarlison _Fluminense_Atacante.html
+Juninho,Meia,Bahia,./Graficos/Juninho_Bahia_Meia.html
+Fernando Miguel,Goleiro,Vitória,./Graficos/Fernando Miguel_Vitória_Goleiro.html
+Diogo Barbosa,Lateral,Cruzeiro,./Graficos/Diogo Barbosa_Cruzeiro_Lateral.html
+Allione,Meia,Bahia,./Graficos/Allione_Bahia_Meia.html
+Kannemann,Zagueiro,Grêmio,./Graficos/Kannemann_Grêmio_Zagueiro.html
+Edílson,Lateral,Grêmio,./Graficos/Edílson_Grêmio_Lateral.html
+Pablo,Zagueiro,Corinthians,./Graficos/Pablo_Corinthians_Zagueiro.html
+João Lucas,Lateral,Ponte Preta,./Graficos/João Lucas_Ponte Preta_Lateral.html
+Arthur ,Atacante,Chapecoense,./Graficos/Arthur _Chapecoense_Atacante.html
+Jean,Meia,Vasco,./Graficos/Jean_Vasco_Meia.html
+Orejuela,Meia,Fluminense,./Graficos/Orejuela_Fluminense_Meia.html
+Rafael Sobis,Atacante,Cruzeiro,./Graficos/Rafael Sobis_Cruzeiro_Atacante.html
+Rithely,Meia,Sport,./Graficos/Rithely_Sport_Meia.html
+Renan Ribeiro,Goleiro,São Paulo,./Graficos/Renan Ribeiro_São Paulo_Goleiro.html
+Romulo,Atacante,Avaí,./Graficos/Romulo_Avaí_Atacante.html
+Kleber,Atacante,Coritiba,./Graficos/Kleber_Coritiba_Atacante.html
+Pedro Rocha,Atacante,Grêmio,./Graficos/Pedro Rocha_Grêmio_Atacante.html
+Wellington Paulista,Atacante,Chapecoense,./Graficos/Wellington Paulista_Chapecoense_Atacante.html
+Capa,Lateral,Avaí,./Graficos/Capa_Avaí_Lateral.html
+Réver,Zagueiro,Flamengo,./Graficos/Réver_Flamengo_Zagueiro.html
+Roger,Atacante,Botafogo,./Graficos/Roger_Botafogo_Atacante.html
+Otávio ,Meia,Atlético-PR,./Graficos/Otávio _Atlético-PR_Meia.html
+Lucas Barrios,Atacante,Grêmio,./Graficos/Lucas Barrios_Grêmio_Atacante.html
+Gabriel,Zagueiro,Atlético-MG,./Graficos/Gabriel_Atlético-MG_Zagueiro.html
+Marcelo Oliveira,Lateral,Grêmio,./Graficos/Marcelo Oliveira_Grêmio_Lateral.html
+Tiago ,Zagueiro,Bahia,./Graficos/Tiago _Bahia_Zagueiro.html
+Maicon,Zagueiro,São Paulo,./Graficos/Maicon_São Paulo_Zagueiro.html
+Edu Dracena,Zagueiro,Palmeiras,./Graficos/Edu Dracena_Palmeiras_Zagueiro.html
+Robinho,Meia,Cruzeiro,./Graficos/Robinho_Cruzeiro_Meia.html
+Rodrigo Caio,Zagueiro,São Paulo,./Graficos/Rodrigo Caio_São Paulo_Zagueiro.html
+Cueva,Meia,São Paulo,./Graficos/Cueva_São Paulo_Meia.html
+Victor,Goleiro,Atlético-MG,./Graficos/Victor_Atlético-MG_Goleiro.html
+Juninho,Zagueiro,Palmeiras,./Graficos/Juninho_Palmeiras_Zagueiro.html
+Willian Farias,Meia,Vitória,./Graficos/Willian Farias_Vitória_Meia.html
+Rodrigo,Zagueiro,Ponte Preta,./Graficos/Rodrigo_Ponte Preta_Zagueiro.html
+Balbuena,Zagueiro,Corinthians,./Graficos/Balbuena_Corinthians_Zagueiro.html
+Everton,Atacante,Grêmio,./Graficos/Everton_Grêmio_Atacante.html
+Dodô,Lateral,Coritiba,./Graficos/Dodô_Coritiba_Lateral.html
+Willian Arão,Meia,Flamengo,./Graficos/Willian Arão_Flamengo_Meia.html
+Everaldo,Atacante,Atlético-GO,./Graficos/Everaldo_Atlético-GO_Atacante.html
+Edigar Junio,Atacante,Bahia,./Graficos/Edigar Junio_Bahia_Atacante.html
+Vitor Bueno,Meia,Santos,./Graficos/Vitor Bueno_Santos_Meia.html
+André,Atacante,Sport,./Graficos/André_Sport_Atacante.html
+Arrascaeta,Meia,Cruzeiro,./Graficos/Arrascaeta_Cruzeiro_Meia.html
+Henrique,Zagueiro,Fluminense,./Graficos/Henrique_Fluminense_Zagueiro.html
+Rodrigo Lindoso,Meia,Botafogo,./Graficos/Rodrigo Lindoso_Botafogo_Meia.html
+Joel Carli,Zagueiro,Botafogo,./Graficos/Joel Carli_Botafogo_Zagueiro.html
+Cazares,Meia,Atlético-MG,./Graficos/Cazares_Atlético-MG_Meia.html
+Rodinei,Lateral,Flamengo,./Graficos/Rodinei_Flamengo_Lateral.html
+Patrick,Meia,Sport,./Graficos/Patrick_Sport_Meia.html
+Felipe Santana,Zagueiro,Atlético-MG,./Graficos/Felipe Santana_Atlético-MG_Zagueiro.html
+Gilson,Lateral,Botafogo,./Graficos/Gilson_Botafogo_Lateral.html
+Kieza,Atacante,Vitória,./Graficos/Kieza_Vitória_Atacante.html
+Jean,Goleiro,Bahia,./Graficos/Jean_Bahia_Goleiro.html
+Luiz Antonio ,Meia,Chapecoense,./Graficos/Luiz Antonio _Chapecoense_Meia.html
+Pará,Lateral,Flamengo,./Graficos/Pará_Flamengo_Lateral.html
+Victor Ramos,Zagueiro,Chapecoense,./Graficos/Victor Ramos_Chapecoense_Zagueiro.html
+Felipe Garcia,Goleiro,Atlético-GO,./Graficos/Felipe Garcia_Atlético-GO_Goleiro.html
+Guilherme Arana,Lateral,Corinthians,./Graficos/Guilherme Arana_Corinthians_Lateral.html
+Marcelo Grohe,Goleiro,Grêmio,./Graficos/Marcelo Grohe_Grêmio_Goleiro.html
+Vladimir Hernández,Atacante,Santos,./Graficos/Vladimir Hernández_Santos_Atacante.html
+Buffarini,Lateral,São Paulo,./Graficos/Buffarini_São Paulo_Lateral.html
+Dedé,Zagueiro,Cruzeiro,./Graficos/Dedé_Cruzeiro_Zagueiro.html
+Thiago Heleno,Zagueiro,Atlético-PR,./Graficos/Thiago Heleno_Atlético-PR_Zagueiro.html
+Yago Pikachu,Lateral,Vasco,./Graficos/Yago Pikachu_Vasco_Lateral.html
+Felipe Melo,Meia,Palmeiras,./Graficos/Felipe Melo_Palmeiras_Meia.html
+Arnaldo,Lateral,Botafogo,./Graficos/Arnaldo_Botafogo_Lateral.html
+Arthur,Meia,Grêmio,./Graficos/Arthur_Grêmio_Meia.html
+Mateus Vital,Meia,Vasco,./Graficos/Mateus Vital_Vasco_Meia.html
+Renê Júnior,Meia,Bahia,./Graficos/Renê Júnior_Bahia_Meia.html
+Nikão,Meia,Atlético-PR,./Graficos/Nikão_Atlético-PR_Meia.html
+Werley,Zagueiro,Coritiba,./Graficos/Werley_Coritiba_Zagueiro.html
+Michel ,Meia,Grêmio,./Graficos/Michel _Grêmio_Meia.html
+Tchê Tchê,Meia,Palmeiras,./Graficos/Tchê Tchê_Palmeiras_Meia.html
+Rossi,Atacante,Chapecoense,./Graficos/Rossi_Chapecoense_Atacante.html
+Ravanelli,Meia,Ponte Preta,./Graficos/Ravanelli_Ponte Preta_Meia.html
+Pedro Henrique,Zagueiro,Corinthians,./Graficos/Pedro Henrique_Corinthians_Zagueiro.html
+Jonathan,Lateral,Atlético-PR,./Graficos/Jonathan_Atlético-PR_Lateral.html
+Thiago Maia,Meia,Santos,./Graficos/Thiago Maia_Santos_Meia.html
+Fagner Alemão,Lateral,Avaí,./Graficos/Fagner Alemão_Avaí_Lateral.html
+Vinícius,Meia,Bahia,./Graficos/Vinícius_Bahia_Meia.html
+William Matheus,Lateral,Coritiba,./Graficos/William Matheus_Coritiba_Lateral.html
+Mauricio Kozlinski,Goleiro,Avaí,./Graficos/Mauricio Kozlinski_Avaí_Goleiro.html
+Léo,Zagueiro,Cruzeiro,./Graficos/Léo_Cruzeiro_Zagueiro.html
+Maicon,Meia,Grêmio,./Graficos/Maicon_Grêmio_Meia.html
+Márcio Araújo,Meia,Flamengo,./Graficos/Márcio Araújo_Flamengo_Meia.html
+Walter,Atacante,Atlético-GO,./Graficos/Walter_Atlético-GO_Atacante.html
+Mancuello,Meia,Flamengo,./Graficos/Mancuello_Flamengo_Meia.html
+Rafael Vaz,Zagueiro,Flamengo,./Graficos/Rafael Vaz_Flamengo_Zagueiro.html
+Róger Guedes,Atacante,Palmeiras,./Graficos/Róger Guedes_Palmeiras_Atacante.html
+Alan Costa,Zagueiro,Vitória,./Graficos/Alan Costa_Vitória_Zagueiro.html
+Valdívia,Meia,Atlético-MG,./Graficos/Valdívia_Atlético-MG_Meia.html
+Bruno Pacheco,Lateral,Atlético-GO,./Graficos/Bruno Pacheco_Atlético-GO_Lateral.html
+Henrique,Lateral,Vasco,./Graficos/Henrique_Vasco_Lateral.html
+Rildo,Atacante,Coritiba,./Graficos/Rildo_Coritiba_Atacante.html
+Clayton,Atacante,Corinthians,./Graficos/Clayton_Corinthians_Atacante.html
+Kanu,Zagueiro,Vitória,./Graficos/Kanu_Vitória_Zagueiro.html
+Naldo,Meia,Ponte Preta,./Graficos/Naldo_Ponte Preta_Meia.html
+Marcio,Zagueiro,Coritiba,./Graficos/Marcio_Coritiba_Zagueiro.html
+André Lima,Atacante,Vitória,./Graficos/André Lima_Vitória_Atacante.html
+Diego Rosa,Meia,Atlético-GO,./Graficos/Diego Rosa_Atlético-GO_Meia.html
+Wanderson,Zagueiro,Atlético-PR,./Graficos/Wanderson_Atlético-PR_Zagueiro.html
+Matheus Galdezani,Meia,Coritiba,./Graficos/Matheus Galdezani_Coritiba_Meia.html
+Wellington Nem,Atacante,São Paulo,./Graficos/Wellington Nem_São Paulo_Atacante.html
+Egídio,Lateral,Palmeiras,./Graficos/Egídio_Palmeiras_Lateral.html
+Roger Carvalho,Zagueiro,Atlético-GO,./Graficos/Roger Carvalho_Atlético-GO_Zagueiro.html
+Renato Cajá,Meia,Ponte Preta,./Graficos/Renato Cajá_Ponte Preta_Meia.html
+Seijas,Meia,Chapecoense,./Graficos/Seijas_Chapecoense_Meia.html
+Otero,Meia,Atlético-MG,./Graficos/Otero_Atlético-MG_Meia.html
+Eduardo da Silva,Atacante,Atlético-PR,./Graficos/Eduardo da Silva_Atlético-PR_Atacante.html
+Thomás,Meia,Sport,./Graficos/Thomás_Sport_Meia.html
+Gabriel,Meia,Corinthians,./Graficos/Gabriel_Corinthians_Meia.html
+Marcão Silva,Meia,Atlético-GO,./Graficos/Marcão Silva_Atlético-GO_Meia.html
+Jonas,Meia,Coritiba,./Graficos/Jonas_Coritiba_Meia.html
+Patric,Lateral,Vitória,./Graficos/Patric_Vitória_Lateral.html
+Rafael Moura,Atacante,Atlético-MG,./Graficos/Rafael Moura_Atlético-MG_Atacante.html
+Cleiton Xavier,Meia,Vitória,./Graficos/Cleiton Xavier_Vitória_Meia.html
+Marcos Calazans,Atacante,Fluminense,./Graficos/Marcos Calazans_Fluminense_Atacante.html
+Hudson,Meia,Cruzeiro,./Graficos/Hudson_Cruzeiro_Meia.html
+Lucas Romero,Meia,Cruzeiro,./Graficos/Lucas Romero_Cruzeiro_Meia.html
+Lucho González,Meia,Atlético-PR,./Graficos/Lucho González_Atlético-PR_Meia.html
+Maicosuel,Meia,São Paulo,./Graficos/Maicosuel_São Paulo_Meia.html
+Apodi,Lateral,Chapecoense,./Graficos/Apodi_Chapecoense_Lateral.html
+Grafite,Atacante,Atlético-PR,./Graficos/Grafite_Atlético-PR_Atacante.html
+Mayke,Lateral,Palmeiras,./Graficos/Mayke_Palmeiras_Lateral.html
+Renê,Lateral,Flamengo,./Graficos/Renê_Flamengo_Lateral.html
+Maycon,Meia,Corinthians,./Graficos/Maycon_Corinthians_Meia.html
+Willian,Atacante,Palmeiras,./Graficos/Willian_Palmeiras_Atacante.html
+Júlio César,Goleiro,Fluminense,./Graficos/Júlio César_Fluminense_Goleiro.html
+Trauco,Lateral,Flamengo,./Graficos/Trauco_Flamengo_Lateral.html
+Rafael Thyere,Zagueiro,Grêmio,./Graficos/Rafael Thyere_Grêmio_Zagueiro.html
+Gustavo,Atacante,Bahia,./Graficos/Gustavo_Bahia_Atacante.html
+Anselmo,Meia,Sport,./Graficos/Anselmo_Sport_Meia.html
+Leandro Salino,Lateral,Vitória,./Graficos/Leandro Salino_Vitória_Lateral.html
+Luan,Zagueiro,Palmeiras,./Graficos/Luan_Palmeiras_Zagueiro.html
+Lucas Veríssimo,Zagueiro,Santos,./Graficos/Lucas Veríssimo_Santos_Zagueiro.html
+Ariel Cabral,Meia,Cruzeiro,./Graficos/Ariel Cabral_Cruzeiro_Meia.html
+Luan,Atacante,Atlético-MG,./Graficos/Luan_Atlético-MG_Atacante.html
+Gustavo Ferrareis,Meia,Bahia,./Graficos/Gustavo Ferrareis_Bahia_Meia.html
+Júnior Dutra,Atacante,Avaí,./Graficos/Júnior Dutra_Avaí_Atacante.html
+Rodrigo Pimpão,Atacante,Botafogo,./Graficos/Rodrigo Pimpão_Botafogo_Atacante.html
+Euller ,Lateral,Vitória,./Graficos/Euller _Vitória_Lateral.html
+Sidão,Goleiro,São Paulo,./Graficos/Sidão_São Paulo_Goleiro.html
+Renato,Meia,Santos,./Graficos/Renato_Santos_Meia.html
+Luan,Meia,Avaí,./Graficos/Luan_Avaí_Meia.html
+Leandro Silva,Lateral,Avaí,./Graficos/Leandro Silva_Avaí_Lateral.html
+Diego Tavares,Lateral,Avaí,./Graficos/Diego Tavares_Avaí_Lateral.html
+Thiago Santos,Meia,Palmeiras,./Graficos/Thiago Santos_Palmeiras_Meia.html
+Ezequiel ,Lateral,Cruzeiro,./Graficos/Ezequiel _Cruzeiro_Lateral.html
+Osvaldo,Atacante,Sport,./Graficos/Osvaldo_Sport_Atacante.html
+Rogério,Atacante,Sport,./Graficos/Rogério_Sport_Atacante.html
+Luiz Otávio ,Zagueiro,Chapecoense,./Graficos/Luiz Otávio _Chapecoense_Zagueiro.html
+Keno,Atacante,Palmeiras,./Graficos/Keno_Palmeiras_Atacante.html
+Rafael Carioca,Meia,Atlético-MG,./Graficos/Rafael Carioca_Atlético-MG_Meia.html
+Rafinha,Meia,Cruzeiro,./Graficos/Rafinha_Cruzeiro_Meia.html
+Mascarenhas,Lateral,Fluminense,./Graficos/Mascarenhas_Fluminense_Lateral.html
+Durval,Zagueiro,Sport,./Graficos/Durval_Sport_Zagueiro.html
+Juan,Zagueiro,Flamengo,./Graficos/Juan_Flamengo_Zagueiro.html
+Ronaldo Alves,Zagueiro,Sport,./Graficos/Ronaldo Alves_Sport_Zagueiro.html
+Eduardo,Lateral,Bahia,./Graficos/Eduardo_Bahia_Lateral.html
+Leandro Pereira,Atacante,Sport,./Graficos/Leandro Pereira_Sport_Atacante.html
+Igor,Zagueiro,Sport,./Graficos/Igor_Sport_Zagueiro.html
+Betão,Zagueiro,Avaí,./Graficos/Betão_Avaí_Zagueiro.html
+Jorginho,Meia,Atlético-GO,./Graficos/Jorginho_Atlético-GO_Meia.html
+Carlos Alberto,Meia,Atlético-PR,./Graficos/Carlos Alberto_Atlético-PR_Meia.html
+Thomaz,Meia,São Paulo,./Graficos/Thomaz_São Paulo_Meia.html
+Matheus Ribeiro,Lateral,Santos,./Graficos/Matheus Ribeiro_Santos_Lateral.html
+Fernandinho,Lateral,Ponte Preta,./Graficos/Fernandinho_Ponte Preta_Lateral.html
+Elton,Meia,Ponte Preta,./Graficos/Elton_Ponte Preta_Meia.html
+Airton,Meia,Botafogo,./Graficos/Airton_Botafogo_Meia.html
+Lucas Fonseca,Zagueiro,Bahia,./Graficos/Lucas Fonseca_Bahia_Zagueiro.html
+Bruno,Lateral,São Paulo,./Graficos/Bruno_São Paulo_Lateral.html
+Andrezinho,Meia,Vasco,./Graficos/Andrezinho_Vasco_Meia.html
+Deivid,Meia,Atlético-PR,./Graficos/Deivid_Atlético-PR_Meia.html
+Emerson Sheik,Atacante,Ponte Preta,./Graficos/Emerson Sheik_Ponte Preta_Atacante.html
+Reginaldo,Zagueiro,Fluminense,./Graficos/Reginaldo_Fluminense_Zagueiro.html
+Fabiano,Lateral,Palmeiras,./Graficos/Fabiano_Palmeiras_Lateral.html
+Renato,Lateral,Fluminense,./Graficos/Renato_Fluminense_Lateral.html
+Manga Escobar,Atacante,Vasco,./Graficos/Manga Escobar_Vasco_Atacante.html
+Alex Silva,Lateral,Atlético-MG,./Graficos/Alex Silva_Atlético-MG_Lateral.html
+Lucão,Zagueiro,São Paulo,./Graficos/Lucão_São Paulo_Zagueiro.html
+Adilson,Meia,Atlético-MG,./Graficos/Adilson_Atlético-MG_Meia.html
+Léo,Lateral,Coritiba,./Graficos/Léo_Coritiba_Lateral.html
+Andrei Girotto,Meia,Chapecoense,./Graficos/Andrei Girotto_Chapecoense_Meia.html
+Jeferson,Lateral,Ponte Preta,./Graficos/Jeferson_Ponte Preta_Lateral.html
+Kelvin,Atacante,Vasco,./Graficos/Kelvin_Vasco_Atacante.html
+Michel Bastos,Meia,Palmeiras,./Graficos/Michel Bastos_Palmeiras_Meia.html
+Montillo,Meia,Botafogo,./Graficos/Montillo_Botafogo_Meia.html
+Leandro Donizete,Meia,Santos,./Graficos/Leandro Donizete_Santos_Meia.html
+Lucas Silva,Meia,Cruzeiro,./Graficos/Lucas Silva_Cruzeiro_Meia.html
+Gastón Fernández,Meia,Grêmio,./Graficos/Gastón Fernández_Grêmio_Meia.html
+Cícero,Meia,São Paulo,./Graficos/Cícero_São Paulo_Meia.html
+Tiago Real,Meia,Coritiba,./Graficos/Tiago Real_Coritiba_Meia.html
+Juan,Meia,Avaí,./Graficos/Juan_Avaí_Meia.html
+Alan Santos,Meia,Coritiba,./Graficos/Alan Santos_Coritiba_Meia.html
+Matheus Fernandes,Meia,Botafogo,./Graficos/Matheus Fernandes_Botafogo_Meia.html
+Marcinho,Atacante,São Paulo,./Graficos/Marcinho_São Paulo_Atacante.html
+Fred,Zagueiro,Vitória,./Graficos/Fred_Vitória_Zagueiro.html
+Élber,Meia,Cruzeiro,./Graficos/Élber_Cruzeiro_Meia.html
+Paulão,Zagueiro,Vasco,./Graficos/Paulão_Vasco_Zagueiro.html
+Gabriel Xavier,Meia,Vitória,./Graficos/Gabriel Xavier_Vitória_Meia.html
+Raphael Veiga,Meia,Palmeiras,./Graficos/Raphael Veiga_Palmeiras_Meia.html
+Luis Caicedo,Zagueiro,Cruzeiro,./Graficos/Luis Caicedo_Cruzeiro_Zagueiro.html
+Kayke,Atacante,Santos,./Graficos/Kayke_Santos_Atacante.html
+Sander,Lateral,Sport,./Graficos/Sander_Sport_Lateral.html
+Jandrei,Goleiro,Chapecoense,./Graficos/Jandrei_Chapecoense_Goleiro.html
+Neilton,Atacante,Vitória,./Graficos/Neilton_Vitória_Atacante.html
+Léo Santos,Zagueiro,Corinthians,./Graficos/Léo Santos_Corinthians_Zagueiro.html
+Matheus Reis,Lateral,Bahia,./Graficos/Matheus Reis_Bahia_Lateral.html
+Erik,Atacante,Palmeiras,./Graficos/Erik_Palmeiras_Atacante.html
+Wendel,Meia,Ponte Preta,./Graficos/Wendel_Ponte Preta_Meia.html
+Breno Lopes,Lateral,Atlético-GO,./Graficos/Breno Lopes_Atlético-GO_Lateral.html
+Léo,Lateral,Fluminense,./Graficos/Léo_Fluminense_Lateral.html
+Lugano,Zagueiro,São Paulo,./Graficos/Lugano_São Paulo_Zagueiro.html
+Matheus Rossetto,Meia,Atlético-PR,./Graficos/Matheus Rossetto_Atlético-PR_Meia.html
+Ederson,Meia,Flamengo,./Graficos/Ederson_Flamengo_Meia.html
+Alex Muralha,Goleiro,Flamengo,./Graficos/Alex Muralha_Flamengo_Goleiro.html
+Lucas Fernandes,Atacante,Fluminense,./Graficos/Lucas Fernandes_Fluminense_Atacante.html
+João Schmidt ,Meia,São Paulo,./Graficos/João Schmidt _São Paulo_Meia.html
+Guilherme,Atacante,Botafogo,./Graficos/Guilherme_Botafogo_Atacante.html
+Paulo André,Zagueiro,Atlético-PR,./Graficos/Paulo André_Atlético-PR_Zagueiro.html
+Marcelo,Zagueiro,Botafogo,./Graficos/Marcelo_Botafogo_Zagueiro.html
+Lennon,Lateral,Cruzeiro,./Graficos/Lennon_Cruzeiro_Lateral.html
+Lins,Atacante,Ponte Preta,./Graficos/Lins_Ponte Preta_Atacante.html
+Rafael Marques,Atacante,Cruzeiro,./Graficos/Rafael Marques_Cruzeiro_Atacante.html
+Negueba,Atacante,Ponte Preta,./Graficos/Negueba_Ponte Preta_Atacante.html
+Cuéllar,Meia,Flamengo,./Graficos/Cuéllar_Flamengo_Meia.html
+Júnior Viçosa,Atacante,Atlético-GO,./Graficos/Júnior Viçosa_Atlético-GO_Atacante.html
+Judson,Meia,Avaí,./Graficos/Judson_Avaí_Meia.html
+Henrique,Meia,Cruzeiro,./Graficos/Henrique_Cruzeiro_Meia.html
+Jean Mota,Meia,Santos,./Graficos/Jean Mota_Santos_Meia.html
+Lucas Lima,Meia,Santos,./Graficos/Lucas Lima_Santos_Meia.html
+Jadson,Meia,Ponte Preta,./Graficos/Jadson_Ponte Preta_Meia.html
+Igor,Meia,Atlético-GO,./Graficos/Igor_Atlético-GO_Meia.html
+Muriqui,Atacante,Vasco,./Graficos/Muriqui_Vasco_Atacante.html
+Everton Felipe,Meia,Sport,./Graficos/Everton Felipe_Sport_Meia.html
+Paulinho,Atacante,Vitória,./Graficos/Paulinho_Vitória_Atacante.html
+Fabián Noguera,Zagueiro,Santos,./Graficos/Fabián Noguera_Santos_Zagueiro.html
+Éderson,Atacante,Atlético-PR,./Graficos/Éderson_Atlético-PR_Atacante.html
+Túlio de Melo,Atacante,Chapecoense,./Graficos/Túlio de Melo_Chapecoense_Atacante.html
+Willians,Atacante,Avaí,./Graficos/Willians_Avaí_Atacante.html
+Uillian Correia,Meia,Vitória,./Graficos/Uillian Correia_Vitória_Meia.html
+João Paulo,Atacante,Bahia,./Graficos/João Paulo_Bahia_Atacante.html
+David,Atacante,Vitória,./Graficos/David_Vitória_Atacante.html
+Osman,Atacante,Chapecoense,./Graficos/Osman_Chapecoense_Atacante.html
+Ricardo Silva,Zagueiro,Atlético-GO,./Graficos/Ricardo Silva_Atlético-GO_Zagueiro.html
+Lincoln,Meia,Grêmio,./Graficos/Lincoln_Grêmio_Meia.html
+Marquinhos,Meia,Avaí,./Graficos/Marquinhos_Avaí_Meia.html
+Nenén,Meia,Chapecoense,./Graficos/Nenén_Chapecoense_Meia.html
+Breno,Zagueiro,Vasco,./Graficos/Breno_Vasco_Zagueiro.html
+Lenis,Atacante,Sport,./Graficos/Lenis_Sport_Atacante.html
+Rafaelson,Atacante,Vitória,./Graficos/Rafaelson_Vitória_Atacante.html
+Hyoran,Meia,Palmeiras,./Graficos/Hyoran_Palmeiras_Meia.html
+Rodrigo Becão,Zagueiro,Bahia,./Graficos/Rodrigo Becão_Bahia_Zagueiro.html
+João Paulo,Meia,Botafogo,./Graficos/João Paulo_Botafogo_Meia.html
+Léo Artur,Meia,Ponte Preta,./Graficos/Léo Artur_Ponte Preta_Meia.html
+Paulo Roberto,Meia,Corinthians,./Graficos/Paulo Roberto_Corinthians_Meia.html
+Samuel Xavier,Lateral,Sport,./Graficos/Samuel Xavier_Sport_Lateral.html
+Eduardo Gabriel,Zagueiro,Atlético-GO,./Graficos/Eduardo Gabriel_Atlético-GO_Zagueiro.html
+Joel,Atacante,Avaí,./Graficos/Joel_Avaí_Atacante.html
+Bruno Cosendey,Meia,Vasco,./Graficos/Bruno Cosendey_Vasco_Meia.html
+Luan Peres ,Zagueiro,Ponte Preta,./Graficos/Luan Peres _Ponte Preta_Zagueiro.html
+René,Zagueiro,Vitória,./Graficos/René_Vitória_Zagueiro.html
+Lucas,Lateral,Fluminense,./Graficos/Lucas_Fluminense_Lateral.html
+Armero,Lateral,Bahia,./Graficos/Armero_Bahia_Lateral.html
+Douglas Coutinho ,Atacante,Atlético-PR,./Graficos/Douglas Coutinho _Atlético-PR_Atacante.html
+Jonathan,Lateral,Atlético-GO,./Graficos/Jonathan_Atlético-GO_Lateral.html
+Nogueira,Zagueiro,Fluminense,./Graficos/Nogueira_Fluminense_Zagueiro.html
+Silva,Meia,Atlético-GO,./Graficos/Silva_Atlético-GO_Meia.html
+Luiz Fernando ,Meia,Fluminense,./Graficos/Luiz Fernando _Fluminense_Meia.html
+Arthur Gomes,Atacante,Santos,./Graficos/Arthur Gomes_Santos_Atacante.html
+Walterson,Atacante,Atlético-GO,./Graficos/Walterson_Atlético-GO_Atacante.html
+Fábio Santos,Lateral,Atlético-MG,./Graficos/Fábio Santos_Atlético-MG_Lateral.html
+Mendoza,Atacante,Bahia,./Graficos/Mendoza_Bahia_Atacante.html
+Fábio Braga,Meia,Ponte Preta,./Graficos/Fábio Braga_Ponte Preta_Meia.html
+Iury,Atacante,Avaí,./Graficos/Iury_Avaí_Atacante.html
+Matheus Iacovelli,Atacante,Palmeiras,./Graficos/Matheus Iacovelli_Palmeiras_Atacante.html
+Wellington Simião,Meia,Avaí,./Graficos/Wellington Simião_Avaí_Meia.html
+Pedro Castro,Meia,Avaí,./Graficos/Pedro Castro_Avaí_Meia.html
+Fabrício,Meia,Sport,./Graficos/Fabrício_Sport_Meia.html
+Todinho,Atacante,Vitória,./Graficos/Todinho_Vitória_Atacante.html
+Matheus Alessandro,Atacante,Fluminense,./Graficos/Matheus Alessandro_Fluminense_Atacante.html
+Airton ,Zagueiro,Avaí,./Graficos/Airton _Avaí_Zagueiro.html
+Capixaba,Atacante,Atlético-MG,./Graficos/Capixaba_Atlético-MG_Atacante.html
+Mateus Norton,Meia,Fluminense,./Graficos/Mateus Norton_Fluminense_Meia.html
+Lourenço,Atacante,Avaí,./Graficos/Lourenço_Avaí_Atacante.html
+Murilo,Zagueiro,Cruzeiro,./Graficos/Murilo_Cruzeiro_Zagueiro.html
+Pedrinho,Atacante,Corinthians,./Graficos/Pedrinho_Corinthians_Atacante.html
+Evandro,Lateral,Sport,./Graficos/Evandro_Sport_Lateral.html
+Nadson,Meia,Chapecoense,./Graficos/Nadson_Chapecoense_Meia.html
+Raniel,Atacante,Cruzeiro,./Graficos/Raniel_Cruzeiro_Atacante.html
