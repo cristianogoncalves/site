@@ -1,6 +1,6 @@
-Time	Erro_Medio
-Atacante	-1.43
-Goleiro	-2.13
-Lateral	-1.15
-Meia	-0.19
-Zagueiro	-1.07
+Posicao	Erro_Medio
+Atacante	-0.93
+Goleiro	-0.41
+Lateral	-0.75
+Meia	0.42
+Zagueiro	-0.64
