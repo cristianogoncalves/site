@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-
+<meta charset="utf-8">
 <head>
-<link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
-
-<!--<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">-->
-<link rel="stylesheet" href="style.css" type='text/css'>
-
-<!--<script type="text/javascript" src="data.json"></script>
-<script type="text/javascript" src="indice.csv"></script>
--->
-<script src="https://d3js.org/d3.v4.js"></script>
-
+  <link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css" type='text/css'>
+</head>
 <style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+}
 
 div {
   height: 320px;
@@ -25,7 +25,6 @@ div {
   border-radius: 12px;
   border: 1px solid lightgrey;
   }
-
 div.Menu {
   height: 30px;
   width: 100%;
@@ -35,12 +34,10 @@ div.Menu {
   border-radius: 0px;
   border: 1px solid transparent;
   }
-
 #botoes {
   float: left;
   text-align:bottom;
 }
-
 p{
   font-family:sans-serif;
   font-weight: bold;
@@ -53,54 +50,95 @@ p{
   top:7px;
 }
 
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  padding: 0px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ddd;
+  pointer-events: none;
+}
+
+div.graf {
+    display: inline-block;
+    height: 330px;
+    width: 300px;
+    border: 0px solid transparent;
+    background-size: cover;
+    margin: 0px 0 0 0;
+    border-radius: 12px;
+    border: 1px solid lightgrey;
+}
+
+div.titulo{
+    font-size: 100%;
+    font-family:sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    width: 300px;
+    border: 0px solid transparent;
+    text-align: center;
+    margin-top: 10px;   
+}
+
 </style>
+<body>
 
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="histogram.js"></script>
+<script>
+  function answers(){
 
-<script type="text/javascript">
-
-
-function answers(){
-
-  var todostimes = [];
-  d3.csv("./data/listatimes.txt", function(data) {
+    var todostimes = [];
+    d3.csv("listatimes.txt", function(data) {
     data.forEach(function(entry){
-      todostimes.push(entry.time);
+    todostimes.push(entry.time);
     });
-  });
+    });
 
-  var todasPosicoes = [];
-  d3.csv("./data/listaposicoes.txt", function(data) {
+    var todasPosicoes = [];
+    d3.csv("listaposicoes.txt", function(data) {
     data.forEach(function(entry){
       todasPosicoes.push(entry.posicao);
     });
-  });
+    });
+    
+    $('div.graf').remove();
 
-  $('div.Graf').remove();
-
-
-  var answer=document.getElementById("mySelect");
-  var answer2=document.getElementById("mySelect2");
-  
+    var answer=document.getElementById("mySelect");
+    var answer2=document.getElementById("mySelect2");
 
   var timeselecionado = answer[answer.selectedIndex].value;
   if (timeselecionado == "nulo") {
     var vtimes = [];
-
   } else {
     var vtimes = [timeselecionado];
   };
-
   
-  //var vtimes = [];  // ENTRO COM O VALOR AQUI
+  
   if (vtimes.length == 0) {
     vtimes=todostimes;
   };
-  //console.log(vtimes);
-
+  
   var posicaoselecionada = answer2[answer2.selectedIndex].value;
   if (posicaoselecionada == "nulo") {
     var vposicao = [];
-
   } else {
     if (posicaoselecionada == "Todas") {
       var vposicao = todasPosicoes;
@@ -108,13 +146,6 @@ function answers(){
       var vposicao = [posicaoselecionada];
     };
   };
-
-  //console.log(vposicao);
-  //var vposicao = ['Atacante'];  // ENTRO COM O VALOR AQUI
-
-  //if (vposicao.length == 0) {
-  //  vposicao=todasPosicoes;
-  //};
 
 
   if (vtimes.length == 0) {
@@ -124,18 +155,12 @@ function answers(){
       } else {
         vposicao=['Goleiro'];
       };
-
   } else {
-
     if (vposicao.length == 0) {
       vposicao=todasPosicoes;
     }
     };
-   //console.log(vtimes);
-   //console.log(vposicao);
-
-  
-
+     
   function contains(a, obj) {
       var i = a.length;
       while (i--) {
@@ -146,34 +171,30 @@ function answers(){
       return false;
   }
 
+  console.log(vtimes);
+  console.log(vposicao);
 
-
-    d3.csv("./data/indice.csv", function(data) {
+  d3.tsv("lista.csv", function(data) {
       
-      data.forEach(function(entry){
-        // document.body.innerHTML += '<div> <embed height=320 width=320 src="'+ entry.Jogador +'"></div>';
-        if(contains(vtimes,entry.Time)) {
-          if(contains(vposicao, entry.Posicao)) {
-          //document.body.innerHTML += '<div>'+ entry.Jogador +'</div>';
-          document.body.innerHTML += '<div class="Graf"> <embed height=320 width=320 src="'+ entry.Arquivo +'"></div>';
+    data.forEach(function(entry){
+      // document.body.innerHTML += '<div> <embed height=320 width=320 src="'+ entry.Jogador +'"></div>';
+      
+      if(contains(vtimes,entry.Time)) {
+        if(contains(vposicao, entry.Posicao)) {
+          console.log(entry.Time);
+          console.log(entry.Posicao);
+          console.log(entry.index);
+          histogram('./Graf/file_' + entry.index + '.csv', entry.Jogador, entry.preco_cartoleta);
+        //document.body.innerHTML += '<div>'+ entry.Jogador +'</div>';
+        //document.body.innerHTML += '<div class="Graf"> <embed height=320 width=320 src="'+ entry.Arquivo +'"></div>';
+        };
       };
-      };
-      });
-    //console.log(data[0]);
-    //console.log(data[0].Arquivo)
     });
+  });
 
-  //var element = document.getElementById('mySelect');
-  //element.value = 'Botafogo';
-  //$('#mySelect').val(4);
 
-  //$("input[id=mySelect]").val('Botafogo').change();
 };
-
-
 </script>
-
-<body>
 
 <div class="Menu">
 <form class="pure-form pure-form-stacked" id="botoes">
@@ -184,6 +205,7 @@ function answers(){
     <option value="Atlético-MG">Atlético-MG</option>
     <option value="Atlético-PR">Atlético-PR</option>
     <option value="Avaí">Avaí</option>
+    <option value="Bahia">Bahia</option>
     <option value="Botafogo">Botafogo</option>
     <option value="Chapecoense">Chapecoense</option>
     <option value="Corinthians">Corinthians</option>
@@ -221,4 +243,7 @@ function answers(){
 
 <p>Análise Cartola FC</p>
 </div>
+
+
+
 </body>
