@@ -106,7 +106,7 @@ p {
 		var answer=document.getElementById("mySelect");
 		var nrodada = answer[answer.selectedIndex].value;
 		//var nrodada = "10";
-
+		
 		var arquivo1 = nrodada + "rodada_times.csv";
 		var arquivo2 = nrodada + "rodada_posicao.csv";
 
@@ -114,12 +114,14 @@ p {
 		console.log(arquivo2);
 
 		$('h2').remove();
+		$('div#grafico').remove();
 		$('div#Grafico1').remove();
 		$('div#Grafico2').remove();
-		$('div#grafico').remove();
-
+		
+		if (nrodada != "nulo" ) {
 		gera_grafico(arquivo1,"Grafico1", "Time", 500);
 		gera_grafico(arquivo2,"Grafico2","Posição",250);
+		};
 	};
 		
 </script>
