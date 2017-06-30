@@ -44,8 +44,6 @@ function gera_grafico(arquivo, localid, tipo, height_defined) {
 			  x.domain(d3.extent(data, function(d) { return d.Erro_Medio; })).nice();
 			  y.domain(data.map(function(d) { return d.Time; }));
 
-			  console.log(d.Erro_Medio)
-
 			  svg.selectAll(".bar")
 			      .data(data)
 			    .enter().append("rect")
