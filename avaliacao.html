@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Análise Cartola FC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/jquery-ui.css">
+  		<link rel="stylesheet" href="assets/css/style.css">
+  		<script src="assets/js/jquery-1.12.4.js"></script>
+ 		<script src="assets/js/jquery-ui.js"></script>
+  		<script>
+ 		 $( function() {
+   			 $( "#tabs" ).tabs({
+     		 collapsible: true
+    		});
+  		} );
+  		</script>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Análise Cartola FC</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Como Funciona</a></li>
+							<li><a href="simulacao.html">Simulação da Pontuação a cada Rodada</a></li>
+							<li class="active"><a href="avaliacao.html">Avaliação do Modelo</a></li>
+							<li><a href="aboutme.html">Quem sou</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="http://twitter.com/share?url=https://cristianogoncalves.github.io/site" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/cristiano-de-andrade-gon%C3%A7alves-9554b5137/" class="icon fa-linkedin"><span class="label">Linkein</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">Julho 4, 2017</span>
+									<h1>Avaliação do Modelo<br /></h1>
+									<p> Após a conclusão de cada rodada, é realizada a comparação <br />
+									do valor esperado da pontuação de cada jogador com sua pontuação realizada <br />sendo realizado o cálculo do erro médio agrupado por Time e por Posição.
+									<br />
+									</p>
+
+									<p>Ou seja, para o gráfico de avaliação do modelo por time, temos que para 	jogador deste time na média, pontuou mais ou menos do valor esperado dentre todos jogadores deste time.
+									<br />
+									<br />
+									Exemplo: Na Rodada 10, os jogadores do Avaí pontuaram individualmente mais de 3 pontos por jogador, comparado ao valor esperado do modelo nesta rodada. Enquanto cada jogador do Flamengo pontuou bem próximo ao valor esperado do modelo.
+									</p>
+								</header>
+							</section>
+
+					</div>
+					<div style="background-color: #ffffff;position: relative;display: flex;display: -moz-flex;display: -webkit-flex;display: -ms-flex;margin: 0 auto;width: calc(100% - 4rem);max-width: 72rem;">
+						
+						  	<iframe frameborder="0" style="height:1100px; overflow:hidden; width:69rem;" src= "Avaliacao/index.html"></iframe>
+						
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>Design: Cristiano Gonçalves <a href="https://cristianogoncalves.github.io/site">Análise Cartola FC</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
