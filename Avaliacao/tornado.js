@@ -1,16 +1,18 @@
-function gera_grafico(arquivo, localid, tipo, height_defined) {
+function gera_grafico(arquivo, localid, tipo, height_defined, width_defined) {
 
 
 			function type(d) {
 			  d.Erro_Medio = +d.Erro_Medio;
 		  	  return d;
 			};
-		
 
+
+		
 			var margin = {top: 20, right: 20, bottom: 30, left:20},
-			    width = 700 - margin.left - margin.right,
+			    width = width_defined - margin.left - margin.right,
 			    height = height_defined - margin.top - margin.bottom;
 
+			
 			var x = d3.scale.linear()
 			    .range([0, width]);
 
@@ -31,7 +33,7 @@ function gera_grafico(arquivo, localid, tipo, height_defined) {
 
 			var div = d3.select("body").append("div").attr("class","grafico");
 			var div2 =	div.append("div").attr("id", localid);
-    			div2.append("h2").text("Avaliação do Modelo - Por " + tipo);
+    			div2.append("h2").text("Por " + tipo);
 
 
 			var svg = d3.select("div#"+localid).append("svg")

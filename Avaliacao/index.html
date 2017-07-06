@@ -39,7 +39,9 @@ div#Graficos2{
 }
 
 h2 {
-	position: relative;left:175px;
+	margin: 0px 0 0 0;
+	text-align: left;	
+	font-size: medium;
 }
 
 p {
@@ -84,7 +86,7 @@ p {
 
 <body>
 
-	<div class="Menu">
+	<div class="Menu" id="menubar">
 	<form class="pure-form pure-form-stacked" id="botoes">
 	    <select id="mySelect" name='form1' >
 	    <option value="nulo">Rodada</option>
@@ -95,7 +97,7 @@ p {
 	
   	<button  onclick="answers();" id="botoes" type="button" class="pure-button pure-button-primary">Atualizar</button>
 
-  	<p>Análise do Modelo</p>
+  	<!--<p>Análise do Modelo</p>-->
 
 	</div>
 
@@ -117,10 +119,15 @@ p {
 		$('div#grafico').remove();
 		$('div#Grafico1').remove();
 		$('div#Grafico2').remove();
+
+		var width_teste = document.getElementById('menubar').offsetWidth;
+		console.log(width_teste);
 		
+		var width_graf = 0.8 * width_teste;
+
 		if (nrodada != "nulo" ) {
-		gera_grafico(arquivo1,"Grafico1", "Time", 500);
-		gera_grafico(arquivo2,"Grafico2","Posição",250);
+		gera_grafico(arquivo1,"Grafico1", "Time", 500,width_graf);
+		gera_grafico(arquivo2,"Grafico2","Posição",250,width_graf);
 		};
 	};
 		
