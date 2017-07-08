@@ -53,7 +53,14 @@ function gera_grafico(arquivo, localid, tipo, height_defined, width_defined) {
 			      .attr("x", function(d) { return x(Math.min(0, d.Erro_Medio)); })
 			      .attr("y", function(d) { return y(d.Time); })
 			      .attr("width", function(d) { return Math.abs(x(d.Erro_Medio) - x(0)); })
-			      .attr("height", y.rangeBand());
+			      .attr("height", y.rangeBand())
+			      .on("mouseover", function() { tooltip.style("display", null); })
+          		  .on("mouseout", function() { tooltip.style("display", "none"); })
+          		  .on("mousemove", function(d) { var xPosition = d3.mouse(this)[0] - 15;
+           				var yPosition = d3.mouse(this)[1] - 25;
+              			tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+                		tooltip.select("text").html(d.Time + " : " + d3.format(",.2f")(d.Erro_Medio));
+            		});
 
 			  svg.append("g")
 			      .attr("class", "x axis")
@@ -64,6 +71,26 @@ function gera_grafico(arquivo, localid, tipo, height_defined, width_defined) {
 			      .attr("class", "y axis")
 			      .attr("transform", "translate(" + x(0) + ",0)")
 			      .call(yAxis);
-			});
+
+
+
+			  var tooltip = svg.append("g")
+		          .attr("class", "tooltip")
+		          .style("display", "none");
+        
+		        tooltip.append("rect")
+		          .attr("width", 125)
+		          .attr("height", 20)
+		          .attr("fill", "white")
+		          .style("opacity", 0.9);
+
+        		tooltip.append("text")
+          		  .attr("x", 15)
+		          .attr("dx", "-0.3sem")
+		          .attr("dy", "1.2em")
+		          .style("text-anchor", "left")
+		          .attr("font-size", "12px")
+		          .attr("font-weight", "bold");
+					});
 
 		};
