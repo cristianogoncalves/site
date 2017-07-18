@@ -1,0 +1,183 @@
+#g-table {
+  font-family: "nyt-franklin", arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.35em;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+div#g-table {
+  width: 1250px;
+}
+
+
+.g-column {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.g-head {
+  border-top: solid 1px #ccc;
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+.g-head .g-column {
+  margin-right: 20px;
+  width: 140px;
+}
+
+.g-title,
+.g-subtitle {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.15em;
+  margin-bottom: .5em;
+}
+
+.g-body .g-subtitle {
+  background: #4248f4;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bold;
+  height: 3em;
+  padding: 8px;
+  position: relative;
+  width: 140px;
+}
+
+.g-body .g-column:last-child .g-subtitle {
+  width: 134px;
+}
+
+.g-body .g-subtitle > div {
+  position: absolute;
+  width: 140px;
+  bottom: 5px;
+}
+
+.g-body .g-subtitle:hover {
+  background: #4b67cc;
+}
+
+.g-body .g-ascending:after,
+.g-body .g-descending:after {
+  bottom: 3px;
+  color: #999;
+  font-size: 10px;
+  position: absolute;
+  right: 5px;
+}
+
+.g-body .g-column:first-child .g-descending:after,
+.g-body .g-ascending:after {
+  /*content: "â–¼";*/
+  content : '\25B2';
+}
+
+.g-body .g-column:first-child .g-ascending:after,
+.g-body .g-descending:after {
+  /*content: "â–²";*/
+  content :'\25BC';
+}
+
+.g-special .g-value {
+  fill: #0925f9;
+  font-weight: bold;
+}
+
+.g-special .g-bar {
+  fill: #0bb2ea;
+  fill-opacity: 1;
+
+}
+
+.g-special .g-quantitative .g-value {
+  fill: #000000;
+}
+
+.g-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.g-row:not(.g-special):hover .g-bar {
+  fill-opacity: .24;
+}
+
+.g-bar {
+  fill-opacity: .12;
+}
+
+.g-bar-cap {
+  fill-opacity: .36;
+}
+
+.g-label {
+  font-size: 11px;
+}
+
+.g-yes,
+.g-no {
+  font-size: 21px;
+}
+
+.g-na {
+  fill: #666;
+  font-size: 10px;
+}
+
+.g-compare {
+  stroke: orange;
+  stroke-dasharray: 2,2;
+}
+
+.g-instruction {
+  color: #aaa;
+  font-size: 11px;
+  font-style: oblique;
+  float: right;
+  margin-top: 1px;
+  margin-right: 20px;
+}
+
+.g-title {
+  font-weight: bold;
+}
+
+.g-summary {
+  font-size: 14px;
+}
+
+.g-note-salary {
+  margin-top: 20px;
+  color: #888;
+  font-size: 11px;
+  line-height: 1.3em;
+}
+
+/* Scoop Fixes */
+
+span.noWrap.feedback {
+  white-space: normal;
+}
+
+#main #interactiveFooter {
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  padding-top: 12px;
+}
+
+#main div.storyHeader h1 {
+  font-size: 26px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+
+/* TypeKit Fixes */
+
+.wf-loading #g-table {
+  visibility: hidden;
+}

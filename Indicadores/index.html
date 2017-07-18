@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--<meta charset="utf-8">-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="d3.v2.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="index.js"></script>
+
+</head>
+
+<style>
+
+div.Menu {
+  height: 30px;
+  width: 100%;
+  display: inline-table;
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  }
+
+#botoes {
+  float: left;
+  text-align:bottom;
+}
+
+</style>
+
+<body>
+
+	<div class="Menu">
+	<form class="pure-form pure-form-stacked" id="botoes">
+	    <select id="mySelect" name='form1' >
+	    <option value="nulo">Posicao</option>
+	    <option value="Goleiro">Goleiro</option>
+	    <option value="Zagueiro">Zagueiro</option>
+	    <option value="Lateral">Lateral</option>
+	    <option value="Meia">Meia</option>
+	    <option value="Atacante">Atacante</option>	    
+	  </select>
+  	</form>
+	
+  	<button  onclick="answers();" id="botoes" type="button" class="pure-button pure-button-primary">Atualizar</button>
+	</div>
+
+
+
+<div id="g-table">
+	<div class="g-body">
+		<div class="g-column"><div class="g-subtitle g-ascending"><div>Jogador</div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Clube</div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Valor Esperado <br>na rodada</div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Cartoleta (C$)</div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Valor Esperado / C$ </div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Valor Esperado / <br>Desvio padrão</div></div></div>
+		<div class="g-column"><div class="g-subtitle"><div>Variação<br>Cartoleta</div></div></div>
+	</div>
+	<svg id="g-chart" width="1200" height="3850">
+	
+	</svg>
+<br clear="left">
+</div>
+
+<!--<script src="index.js"></script>-->
+<script>
+	function answers(){
+
+		var answer=document.getElementById("mySelect");
+		var posicao = answer[answer.selectedIndex].value;
+
+		console.log(posicao);
+		$('#g-chart').empty();
+
+		create_table(posicao);
+
+		
+		if (posicao == "Atacante") {
+			$('#g-chart').height(2600);	
+		}
+		if (posicao == "Meia") {
+			$('#g-chart').height(3850);	
+		}
+		if (posicao == "Zagueiro" || posicao == "Lateral") {
+			$('#g-chart').height(1700);	
+		}
+		if (posicao == "Goleiro") {
+			$('#g-chart').height(700);	
+		}
+
+	};
+
+</script>
+
+</body>
