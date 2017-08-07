@@ -1,0 +1,6 @@
+posicao
+Atacante
+Goleiro
+Lateral
+Meia
+Zagueiro
