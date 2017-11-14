@@ -1,0 +1,593 @@
+index	Jogador	Time	Posicao	preco_cartoleta
+0	Henrique Dourado	Fluminense	Atacante	22.00999999999828
+1	Vanderlei	Santos	Goleiro	20.94999999999816
+2	Lucca	Ponte Preta	Atacante	20.80000000000183
+3	Luan	Grêmio	Atacante	20.13999999999948
+4	Zé Rafael 	Bahia	Meia	20.100000000001355
+5	Thiago Neves	Cruzeiro	Meia	19.58000000000144
+6	Nino Paraíba	Ponte Preta	Lateral	19.449999999998244
+7	Diego	Flamengo	Meia	19.360000000000518
+8	Gatito Fernández	Botafogo	Goleiro	19.270000000000344
+9	Hernanes	São Paulo	Meia	18.639999999999482
+10	Dudu	Palmeiras	Atacante	16.25
+11	Fred	Atlético-MG	Atacante	15.129999999999633
+12	Borja	Palmeiras	Atacante	15.089999999998081
+13	Edson	Bahia	Meia	15.070000000000679
+14	Yerry Mina	Palmeiras	Zagueiro	14.990000000000075
+15	Ramiro	Grêmio	Meia	14.960000000000129
+16	Diego Souza	Sport	Meia	14.940000000001056
+17	Fernando Prass	Palmeiras	Goleiro	14.77999999999916
+18	Robinho	Atlético-MG	Atacante	14.389999999999503
+19	Jean	Palmeiras	Lateral	14.349999999999566
+20	Lucas Pratto	São Paulo	Atacante	14.349999999999566
+21	Reinaldo	Chapecoense	Lateral	14.099999999999456
+22	Wilson	Coritiba	Goleiro	13.87999999999918
+23	Diogo Barbosa	Cruzeiro	Lateral	13.830000000001316
+24	Clayson	Corinthians	Atacante	13.790000000000404
+25	Everton	Flamengo	Meia	13.769999999998854
+26	Régis	Bahia	Meia	13.730000000001164
+27	Jucilei	São Paulo	Meia	13.69000000000094
+28	Renê Júnior	Bahia	Meia	13.550000000001255
+29	Henrique Almeida	Coritiba	Atacante	13.519999999998758
+30	Arthur 	Chapecoense	Atacante	13.510000000000488
+31	Fagner	Corinthians	Lateral	13.459999999999429
+32	Pedro Geromel	Grêmio	Zagueiro	13.430000000000094
+33	Bruno Silva	Botafogo	Meia	13.330000000001299
+34	Rodriguinho	Corinthians	Meia	13.279999999999195
+35	Gustavo Scarpa	Fluminense	Meia	13.169999999998705
+36	Sidcley	Atlético-PR	Lateral	13.069999999999732
+37	Bruno Henrique	Santos	Atacante	12.760000000000629
+38	Edigar Junio	Bahia	Atacante	12.739999999999375
+39	Alisson	Cruzeiro	Meia	12.730000000001358
+40	Sornoza	Fluminense	Meia	12.5100000000006
+41	Nenê	Vasco	Meia	12.480000000001322
+42	Fábio	Cruzeiro	Goleiro	12.410000000001578
+43	Elias	Atlético-MG	Meia	12.339999999998433
+44	Pablo	Corinthians	Zagueiro	12.300000000001086
+45	Ángel Romero	Corinthians	Atacante	12.239999999999432
+46	Alejandro Guerra	Palmeiras	Meia	12.220000000000775
+47	Wendel	Fluminense	Meia	12.169999999998742
+48	Jean	Vasco	Meia	12.150000000000993
+49	Fernandinho	Grêmio	Atacante	12.120000000001022
+50	Juninho	Bahia	Meia	12.120000000001022
+51	Marcos Rocha	Atlético-MG	Lateral	12.110000000000483
+52	Wellington Paulista	Chapecoense	Atacante	12.069999999999734
+53	Victor Luis	Botafogo	Lateral	11.970000000000766
+54	Jô	Corinthians	Atacante	11.919999999998753
+55	Marcos Guilherme 	São Paulo	Meia	11.830000000001244
+56	Marcelo Grohe	Grêmio	Goleiro	11.739999999999494
+57	Éverton Ribeiro	Flamengo	Meia	11.739999999999494
+58	Jean	Bahia	Goleiro	11.63999999999952
+59	Zeca	Santos	Lateral	11.620000000000955
+60	Ramon	Vasco	Lateral	11.580000000001233
+61	Cássio	Corinthians	Goleiro	11.540000000000743
+62	Guilherme Arana	Corinthians	Lateral	11.480000000001157
+63	Balbuena	Corinthians	Zagueiro	11.440000000000666
+64	Réver	Flamengo	Zagueiro	11.400000000000963
+65	Capa	Avaí	Lateral	11.370000000000918
+66	Guilherme	Atlético-PR	Meia	11.370000000000918
+67	Paolo Guerrero	Flamengo	Atacante	11.33000000000122
+68	Petros	São Paulo	Meia	11.33000000000122
+69	David Braz	Santos	Zagueiro	11.319999999999736
+70	Luis Fabiano	Vasco	Atacante	11.300000000000926
+71	Marllon	Ponte Preta	Zagueiro	11.300000000000926
+72	Tomas Bastos	Coritiba	Meia	11.25
+73	Wallace Reis 	Vitória	Zagueiro	11.230000000001112
+74	Victor	Atlético-MG	Goleiro	11.199999999999093
+75	Gilberto 	Vasco	Lateral	11.180000000000263
+76	Júnior Tavares	São Paulo	Lateral	11.150000000000952
+77	Fernando Miguel	Vitória	Goleiro	11.08999999999865
+78	Cueva	São Paulo	Meia	11.08000000000121
+79	Ricardo Oliveira	Santos	Atacante	11.029999999999266
+80	Bruno Cortez	Grêmio	Lateral	10.959999999999262
+81	Aranha	Ponte Preta	Goleiro	10.760000000000367
+82	Patrick	Sport	Meia	10.63999999999953
+83	Igor Rabello	Botafogo	Zagueiro	10.589999999998751
+84	Moisés	Palmeiras	Meia	10.510000000000327
+85	Tiago 	Bahia	Zagueiro	10.449999999999235
+86	Everton	Grêmio	Atacante	10.430000000000263
+87	Kleber	Coritiba	Atacante	10.41000000000121
+88	André	Sport	Atacante	10.370000000000754
+89	Rithely	Sport	Meia	10.339999999998806
+90	Roger	Botafogo	Atacante	10.309999999999516
+91	Diego Alves	Flamengo	Goleiro	10.160000000001153
+92	Rodrigo Lindoso	Botafogo	Meia	10.0999999999991
+93	Matheus Savio	Flamengo	Meia	10.0999999999991
+94	Allione	Bahia	Meia	10.089999999998861
+95	Deyverson	Palmeiras	Atacante	10.089999999998861
+96	Arnaldo	Botafogo	Lateral	10.050000000000678
+97	Fagner Alemão	Avaí	Lateral	9.860000000000461
+98	Anderson Martins	Vasco	Zagueiro	9.849999999999115
+99	Bruno Henrique	Palmeiras	Meia	9.839999999998923
+100	Arrascaeta	Cruzeiro	Meia	9.7699999999992
+101	Michel 	Grêmio	Meia	9.760000000000195
+102	Edu Dracena	Palmeiras	Zagueiro	9.739999999999808
+103	Diego Rosa	Atlético-GO	Meia	9.739999999999808
+104	Léo Moura	Grêmio	Lateral	9.669999999998868
+105	Edílson	Grêmio	Lateral	9.660000000001032
+106	Douglas Friedrich	Avaí	Goleiro	9.660000000001032
+107	Jefferson	Botafogo	Goleiro	9.569999999999741
+108	Valdívia	Atlético-MG	Meia	9.569999999999741
+109	Geferson	Vitória	Lateral	9.55000000000056
+110	Kannemann	Grêmio	Zagueiro	9.510000000000147
+111	Willian Arão	Flamengo	Meia	9.470000000000661
+112	Jonathan	Atlético-PR	Lateral	9.459999999999283
+113	Willian Farias	Vitória	Meia	9.330000000001109
+114	Vitor Bueno	Santos	Meia	9.290000000000713
+115	Yago Pikachu	Vasco	Lateral	9.26999999999933
+116	Rafael Sobis	Cruzeiro	Atacante	9.26999999999933
+117	Lucas Barrios	Grêmio	Atacante	9.08999999999912
+118	Leandro Silva	Avaí	Lateral	9.069999999999743
+119	Pedro Henrique	Corinthians	Zagueiro	9.040000000000708
+120	Gabriel	Atlético-MG	Zagueiro	9.0
+121	Mateus Vital	Vasco	Meia	8.970000000000635
+122	Rodrigo	Ponte Preta	Zagueiro	8.910000000000824
+123	Apodi	Chapecoense	Lateral	8.910000000000824
+124	Renan Ribeiro	São Paulo	Goleiro	8.900000000000825
+125	Victor Ferraz	Santos	Lateral	8.889999999999551
+126	Léo	Cruzeiro	Zagueiro	8.889999999999551
+127	Gabriel	Corinthians	Meia	8.870000000000438
+128	Dedé	Cruzeiro	Zagueiro	8.860000000000449
+129	Mayke	Palmeiras	Lateral	8.830000000001073
+130	Egídio	Palmeiras	Lateral	8.80999999999983
+131	Thiago Heleno	Atlético-PR	Zagueiro	8.769999999999476
+132	Rildo	Coritiba	Atacante	8.759999999999986
+133	Romulo	Avaí	Atacante	8.759999999999986
+134	Lucas Romero	Cruzeiro	Meia	8.74000000000002
+135	Patric	Vitória	Lateral	8.730000000000514
+136	Juninho	Palmeiras	Zagueiro	8.690000000000142
+137	Rodinei	Flamengo	Lateral	8.660000000000748
+138	Arthur	Grêmio	Meia	8.660000000000748
+139	Gilson	Botafogo	Lateral	8.650000000000807
+140	Pará	Flamengo	Lateral	8.639999999999556
+141	Joel Carli	Botafogo	Zagueiro	8.589999999999273
+142	Geuvânio	Flamengo	Atacante	8.529999999999394
+143	Robinho	Cruzeiro	Meia	8.509999999999925
+144	Márcio Araújo	Flamengo	Meia	8.509999999999925
+145	Neto Berola	Coritiba	Atacante	8.5
+146	Willian	Palmeiras	Atacante	8.5
+147	Orejuela	Fluminense	Meia	8.440000000000078
+148	Marcão Silva	Atlético-GO	Meia	8.410000000000666
+149	Conca	Flamengo	Meia	8.349999999999216
+150	Wellington Silva	Fluminense	Atacante	8.290000000000692
+151	Kanu	Vitória	Zagueiro	8.230000000000349
+152	Bruno Pacheco	Atlético-GO	Lateral	8.220000000000585
+153	Henrique	Fluminense	Zagueiro	8.169999999998982
+154	Felipe Gedoz 	Atlético-PR	Meia	8.160000000000581
+155	Ravanelli	Ponte Preta	Meia	8.160000000000581
+156	Alan Costa	Vitória	Zagueiro	8.160000000000581
+157	Manoel	Cruzeiro	Zagueiro	8.160000000000581
+158	Marquinhos Gabriel	Corinthians	Meia	8.150000000000768
+159	Rhodolfo	Flamengo	Zagueiro	8.150000000000768
+160	Júnior Dutra	Avaí	Atacante	8.120000000000237
+161	Kieza	Vitória	Atacante	8.040000000000688
+162	Jadson	Corinthians	Meia	7.9900000000002125
+163	Léo Gamalho	Ponte Preta	Atacante	7.980000000000261
+164	Leonardo Silva	Atlético-MG	Zagueiro	7.959999999999314
+165	Dodô	Coritiba	Lateral	7.939999999999935
+166	Jonas	Coritiba	Meia	7.910000000000488
+167	Keno	Palmeiras	Atacante	7.900000000000745
+168	Cazares	Atlético-MG	Meia	7.879999999999836
+169	Martín Silva	Vasco	Goleiro	7.870000000000162
+170	Mauricio Kozlinski	Avaí	Goleiro	7.870000000000162
+171	Felipe Santana	Atlético-MG	Zagueiro	7.860000000000431
+172	Rodrigo Pimpão	Botafogo	Atacante	7.800000000000034
+173	Arboleda	São Paulo	Zagueiro	7.759999999999721
+174	Tchê Tchê	Palmeiras	Meia	7.75
+175	Luiz Antonio 	Chapecoense	Meia	7.720000000000549
+176	Ronaldo Alves	Sport	Zagueiro	7.7099999999993205
+177	Werley	Coritiba	Zagueiro	7.680000000000252
+178	Vladimir Hernández	Santos	Atacante	7.650000000000722
+179	Neilton	Vitória	Atacante	7.610000000000425
+180	Juan	Flamengo	Zagueiro	7.560000000000186
+181	Sander	Sport	Lateral	7.540000000000675
+182	Roger Carvalho	Atlético-GO	Zagueiro	7.509999999999644
+183	Jailson	Palmeiras	Goleiro	7.450000000000101
+184	Rafael Vaz	Flamengo	Zagueiro	7.43000000000025
+185	Sassá	Cruzeiro	Atacante	7.43000000000025
+186	Walter	Atlético-GO	Atacante	7.419999999999056
+187	Ribamar	Atlético-PR	Atacante	7.419999999999056
+188	Nikão	Atlético-PR	Meia	7.36000000000042
+189	Marcelo Oliveira	Grêmio	Lateral	7.36000000000042
+190	Alison	Santos	Meia	7.36000000000042
+191	Buffarini	São Paulo	Lateral	7.2799999999994895
+192	Maicon	Grêmio	Meia	7.25999999999956
+193	Maycon	Corinthians	Meia	7.209999999999334
+194	Felipe Melo	Palmeiras	Meia	7.169999999999083
+195	Eduardo	Bahia	Lateral	7.160000000000173
+196	Rafinha	Cruzeiro	Meia	7.139999999999585
+197	Wellington Nem	São Paulo	Atacante	7.130000000000095
+198	Otero	Atlético-MG	Meia	7.119999999999902
+199	Lucas Veríssimo	Santos	Zagueiro	7.119999999999902
+200	Brenner	Botafogo	Atacante	7.069999999999752
+201	Zé Roberto	Palmeiras	Lateral	6.990000000000534
+202	Henrique	Vasco	Lateral	6.959999999999341
+203	Betão	Avaí	Zagueiro	6.9100000000000525
+204	Hudson	Cruzeiro	Meia	6.900000000000642
+205	Thiago Santos	Palmeiras	Meia	6.900000000000642
+206	Thiago Carleto	Coritiba	Lateral	6.869999999999804
+207	Luis Ricardo	Botafogo	Lateral	6.799999999999612
+208	Rogério	Sport	Atacante	6.729999999999714
+209	André Lima	Vitória	Atacante	6.709999999999348
+210	Renato Cajá	Ponte Preta	Meia	6.700000000000438
+211	Juninho	Vitória	Lateral	6.689999999999488
+212	Andrigo	Atlético-GO	Meia	6.669999999999145
+213	Rafael Thyere	Grêmio	Zagueiro	6.610000000000402
+214	Sidão	São Paulo	Goleiro	6.599999999999395
+215	Róger Guedes	Palmeiras	Atacante	6.580000000000843
+216	Paulinho	Atlético-GO	Meia	6.580000000000843
+217	Matheus Galdezani	Coritiba	Meia	6.560000000000569
+218	Lucho González	Atlético-PR	Meia	6.5
+219	Luan	Palmeiras	Zagueiro	6.490000000000697
+220	Trauco	Flamengo	Lateral	6.479999999999621
+221	William Matheus	Coritiba	Lateral	6.45000000000051
+222	Mendoza	Bahia	Atacante	6.439999999999441
+223	Renê	Flamengo	Lateral	6.380000000000314
+224	Paulo Victor	Grêmio	Goleiro	6.380000000000314
+225	Cléber Reis	Coritiba	Zagueiro	6.330000000000807
+226	Euller 	Vitória	Lateral	6.310000000000543
+227	Maicosuel	São Paulo	Meia	6.310000000000543
+228	Mancuello	Flamengo	Meia	6.279999999999593
+229	Marcio	Coritiba	Zagueiro	6.279999999999593
+230	Giovanni Augusto	Corinthians	Meia	6.279999999999593
+231	Lucas Fonseca	Bahia	Zagueiro	6.270000000000377
+232	Ezequiel 	Cruzeiro	Lateral	6.270000000000377
+233	Luan	Atlético-MG	Atacante	6.25
+234	David	Vitória	Atacante	6.2200000000004
+235	Jandrei	Chapecoense	Goleiro	6.209999999999367
+236	Seijas	Chapecoense	Meia	6.209999999999367
+237	Fernando Bob	Ponte Preta	Meia	6.200000000000501
+238	Naldo	Ponte Preta	Meia	6.159999999999867
+239	Thomás	Sport	Meia	6.159999999999867
+240	Fabrício	Atlético-PR	Lateral	6.130000000000286
+241	Renato	Santos	Meia	6.119999999999716
+242	Copete	Santos	Atacante	6.119999999999716
+243	Nilmar	Santos	Atacante	6.080000000000769
+244	Guilherme	Botafogo	Atacante	6.080000000000769
+245	Vinícius	Bahia	Meia	6.060000000000511
+246	Anselmo	Sport	Meia	5.93000000000024
+247	Emerson Silva	Botafogo	Zagueiro	5.900000000000505
+248	Emerson Sheik	Ponte Preta	Atacante	5.8899999999996195
+249	Clayton	Atlético-MG	Atacante	5.8899999999996195
+250	Leandro Salino	Vitória	Lateral	5.869999999999747
+251	Eduardo da Silva	Atlético-PR	Atacante	5.869999999999747
+252	Leandro Pereira	Sport	Atacante	5.860000000000379
+253	Diego Tavares	Avaí	Lateral	5.830000000000727
+254	Marcos Vinícius	Botafogo	Meia	5.8100000000004774
+255	Douglas Grolli	Chapecoense	Zagueiro	5.790000000000616
+256	Tréllez	Vitória	Atacante	5.779999999999658
+257	Marcos Calazans	Fluminense	Atacante	5.759999999999418
+258	Matheus Ribeiro	Santos	Lateral	5.759999999999418
+259	Durval	Sport	Zagueiro	5.700000000000482
+260	Jorginho	Atlético-GO	Meia	5.680000000000239
+261	Airton	Botafogo	Meia	5.63000000000022
+262	Cuéllar	Flamengo	Meia	5.590000000000131
+263	Wanderson	Atlético-PR	Zagueiro	5.569999999999763
+264	Gum	Fluminense	Zagueiro	5.56000000000044
+265	Pavez	Atlético-PR	Meia	5.529999999999695
+266	João Pedro 	Chapecoense	Lateral	5.529999999999695
+267	Luiz Otávio 	Chapecoense	Zagueiro	5.5
+268	Pedro	Fluminense	Atacante	5.490000000000532
+269	Richard	Fluminense	Meia	5.490000000000532
+270	Cleiton Xavier	Vitória	Meia	5.479999999999631
+271	Santos	Atlético-PR	Goleiro	5.430000000000236
+272	Léo	Coritiba	Lateral	5.380000000000184
+273	Igor	Atlético-GO	Meia	5.349999999999593
+274	Mena	Sport	Lateral	5.349999999999593
+275	Jeferson	Ponte Preta	Lateral	5.340000000000131
+276	Michel Bastos	Palmeiras	Meia	5.340000000000131
+277	Alan Santos	Coritiba	Meia	5.310000000000398
+278	Rafael Moura	Atlético-MG	Atacante	5.299999999999537
+279	Canteros	Chapecoense	Meia	5.299999999999537
+280	Alex Silva	Atlético-MG	Lateral	5.2900000000005925
+281	Ariel Cabral	Cruzeiro	Meia	5.2900000000005925
+282	Gilvan	Atlético-GO	Zagueiro	5.270000000000366
+283	Fernandinho	Ponte Preta	Lateral	5.259999999999515
+284	Marcelo	Botafogo	Zagueiro	5.25
+285	Weverton	Atlético-PR	Goleiro	5.209999999999412
+286	Ramon	Vitória	Zagueiro	5.200000000000458
+287	Daniel	Coritiba	Meia	5.200000000000458
+288	Roger Bernardo	Atlético-MG	Meia	5.189999999999622
+289	Raul Prata	Sport	Lateral	5.180000000000233
+290	Danilo Barcelos	Ponte Preta	Meia	5.169999999999403
+291	Luan	Avaí	Meia	5.159999999999869
+292	Júlio César	Fluminense	Goleiro	5.150000000000366
+293	João Paulo	Coritiba	Meia	5.13999999999965
+294	Marlone	Atlético-MG	Meia	5.130000000000143
+295	Alex Muralha	Flamengo	Goleiro	5.110000000000349
+296	Gustavo Ferrareis	Bahia	Meia	5.110000000000349
+297	Jean Mota	Santos	Meia	5.099999999999645
+298	Romulo	Flamengo	Meia	5.0800000000005765
+299	Yago	Vitória	Meia	5.04999999999955
+300	Fabrício Bruno	Chapecoense	Zagueiro	5.04999999999955
+301	Deivid	Atlético-PR	Meia	5.040000000000578
+302	Kelvin	Vasco	Atacante	5.02999999999978
+303	Kaio	Grêmio	Meia	5.020000000000362
+304	Maicon	Avaí	Lateral	4.979999999999638
+305	Arouca	Palmeiras	Meia	4.950000000000444
+306	Paulinho	Vasco	Atacante	4.93999999999967
+307	Henrique	Cruzeiro	Meia	4.90999999999987
+308	Magrão	Sport	Goleiro	4.90000000000031
+309	Elton	Ponte Preta	Meia	4.90000000000031
+310	Uillian Correia	Vitória	Meia	4.849999999999702
+311	Fábio Santos	Atlético-MG	Lateral	4.849999999999702
+312	Paulo André	Atlético-PR	Zagueiro	4.799999999999565
+313	Aderllan Santos	São Paulo	Zagueiro	4.77999999999983
+314	Yago	Ponte Preta	Zagueiro	4.77999999999983
+315	Léo	Grêmio	Goleiro	4.770000000000358
+316	Moisés Ribeiro	Chapecoense	Meia	4.770000000000358
+317	Digão	Cruzeiro	Zagueiro	4.759999999999632
+318	Wagner	Vasco	Meia	4.759999999999632
+319	Ronaldo	Atlético-GO	Meia	4.75
+320	Osvaldo	Sport	Atacante	4.75
+321	Oswaldo Henríquez	Sport	Zagueiro	4.729999999999642
+322	Bruno Rodrigo	Grêmio	Zagueiro	4.720000000000157
+323	Bruno Paulista	Vasco	Meia	4.709999999999443
+324	Baumjohann	Coritiba	Meia	4.709999999999443
+325	Thiago Ribeiro	Santos	Atacante	4.700000000000429
+326	Diego Renan	Chapecoense	Lateral	4.689999999999722
+327	Élber	Cruzeiro	Meia	4.689999999999722
+328	Igor	Sport	Zagueiro	4.6699999999995265
+329	Juan	Avaí	Meia	4.630000000000048
+330	Matheus Fernandes	Botafogo	Meia	4.619999999999954
+331	Guilherme Costa	Vasco	Meia	4.590000000000129
+332	Agenor	Sport	Goleiro	4.569999999999775
+333	Matheus Reis	Bahia	Lateral	4.540000000000545
+334	Lucas Silva	Cruzeiro	Meia	4.540000000000545
+335	Douglas	Fluminense	Meia	4.5
+336	Andrés Ríos	Vasco	Atacante	4.470000000000101
+337	Giovanni	Atlético-MG	Goleiro	4.470000000000101
+338	Carlos Cesar	Atlético-MG	Lateral	4.45999999999946
+339	Berrío 	Flamengo	Atacante	4.450000000000412
+340	Walisson Maia	Coritiba	Zagueiro	4.439999999999779
+341	Mascarenhas	Fluminense	Lateral	4.430000000000224
+342	Judson	Avaí	Meia	4.430000000000224
+343	Manga Escobar	Vasco	Atacante	4.430000000000224
+344	Everton Felipe	Sport	Meia	4.409999999999872
+345	Jadson	Ponte Preta	Meia	4.400000000000181
+346	Madson	Vasco	Lateral	4.400000000000181
+347	Fabiano	Palmeiras	Lateral	4.319999999999778
+348	Thomaz	São Paulo	Meia	4.319999999999778
+349	Renato	Fluminense	Lateral	4.319999999999778
+350	Marlon	Fluminense	Lateral	4.310000000000187
+351	Bruno	São Paulo	Lateral	4.279999999999946
+352	Cícero	Grêmio	Meia	4.279999999999946
+353	Caíque	Vitória	Goleiro	4.279999999999946
+354	Pedro Castro	Avaí	Meia	4.259999999999777
+355	Fred	Vitória	Zagueiro	4.259999999999777
+356	Ederson	Flamengo	Meia	4.25
+357	Thiago	Flamengo	Goleiro	4.240000000000217
+358	Adilson	Atlético-MG	Meia	4.229999999999651
+359	Reginaldo	Fluminense	Zagueiro	4.229999999999651
+360	Bruno Alves	São Paulo	Zagueiro	4.220000000000039
+361	Túlio de Melo	Chapecoense	Atacante	4.18000000000022
+362	Marcinho	São Paulo	Atacante	4.169999999999678
+363	Tiago Real	Coritiba	Meia	4.159999999999872
+364	Amaral	Chapecoense	Meia	4.159999999999872
+365	Kayke	Santos	Atacante	4.150000000000103
+366	Gustavo	Avaí	Zagueiro	4.139999999999705
+367	Wendel	Ponte Preta	Meia	4.139999999999705
+368	Roberto	Chapecoense	Lateral	4.120000000000072
+369	Luiz Fernando 	Atlético-GO	Meia	4.090000000000128
+370	Diego Cavalieri	Fluminense	Goleiro	4.090000000000128
+371	Fabián Noguera	Santos	Zagueiro	4.0800000000002905
+372	Douglas	Chapecoense	Zagueiro	4.069999999999783
+373	Danilinho	Vitória	Atacante	4.069999999999783
+374	Paulão	Vasco	Zagueiro	4.020000000000344
+375	Marquinhos	Sport	Atacante	4.020000000000344
+376	Erazo	Atlético-MG	Zagueiro	3.979999999999657
+377	Rafael Marques	Cruzeiro	Atacante	3.9500000000003723
+378	Matheus Rossetto	Atlético-PR	Meia	3.9300000000002155
+379	Elicarlos	Chapecoense	Meia	3.9199999999997694
+380	Lucas Lima	Santos	Meia	3.8799999999998604
+381	Penilla	Chapecoense	Atacante	3.8700000000001427
+382	Lucas Fernandes	São Paulo	Meia	3.8600000000002743
+383	Samuel Xavier	Sport	Lateral	3.840000000000126
+384	Gilberto	São Paulo	Atacante	3.8199999999997867
+385	Camacho	Corinthians	Meia	3.8199999999997867
+386	Edimar	São Paulo	Lateral	3.81000000000004
+387	Lucas Fernandes	Atlético-PR	Atacante	3.790000000000481
+388	Leonardo Valencia	Botafogo	Meia	3.790000000000481
+389	Breno Lopes	Atlético-GO	Lateral	3.780000000000093
+390	Thiago Martins	Bahia	Zagueiro	3.75
+391	Daniel Guedes 	Santos	Lateral	3.729999999999663
+392	Breno	Vasco	Zagueiro	3.709999999999528
+393	Niltinho	Atlético-GO	Atacante	3.6900000000000013
+394	Wellington Simião	Avaí	Meia	3.6699999999998725
+395	Felipe Vizeu	Flamengo	Atacante	3.6499999999999186
+396	Raphael Veiga	Palmeiras	Meia	3.6499999999999186
+397	André Castro	Atlético-GO	Meia	3.6499999999999186
+398	Jael	Grêmio	Atacante	3.62999999999978
+399	Jhemerson	Vitória	Meia	3.6200000000002226
+400	Léo	Fluminense	Lateral	3.600000000000103
+401	Hyoran	Palmeiras	Meia	3.590000000000124
+402	Jailson	Grêmio	Meia	3.590000000000124
+403	Iago	Coritiba	Atacante	3.590000000000124
+404	Beto da Silva	Grêmio	Atacante	3.5800000000000867
+405	Thalles	Vasco	Atacante	3.5800000000000867
+406	Joel	Avaí	Atacante	3.5699999999997925
+407	Lenis	Sport	Atacante	3.5499999999996676
+408	Erik	Palmeiras	Atacante	3.530000000000182
+409	Caju	Santos	Lateral	3.5
+410	Escudero	Vasco	Meia	3.5
+411	Juninho Capixaba	Bahia	Lateral	3.5
+412	Bruno Brígido	Coritiba	Goleiro	3.4799999999996705
+413	Jonatan Gomez	São Paulo	Meia	3.440000000000096
+414	Arroyo	Grêmio	Atacante	3.419999999999991
+415	Rodrigo Becão	Bahia	Zagueiro	3.4099999999998762
+416	João Paulo	Bahia	Atacante	3.350000000000219
+417	Matheus Jesus	Santos	Meia	3.340000000000123
+418	Lucas Marques	Chapecoense	Meia	3.3299999999999623
+419	Leandro Donizete	Santos	Meia	3.3199999999997987
+420	Edinho	Coritiba	Meia	3.3099999999998486
+421	João Paulo	Avaí	Lateral	3.2999999999996974
+422	Eduardo Bauermann	Atlético-GO	Zagueiro	3.2900000000004215
+423	José Welison	Vitória	Meia	3.2800000000002845
+424	Rodrigo	Sport	Meia	3.270000000000323
+425	Nicolas	Atlético-PR	Lateral	3.270000000000323
+426	Leonardo	Grêmio	Lateral	3.2600000000001894
+427	Anderson	Coritiba	Meia	3.25
+428	João Paulo	Botafogo	Meia	3.2399999999998106
+429	Luiz Felipe	Santos	Zagueiro	3.2399999999998106
+430	Léo Duarte	Flamengo	Zagueiro	3.2399999999998106
+431	Marcos Junior	Fluminense	Atacante	3.2299999999996785
+432	Caíque Sá	Vitória	Lateral	3.2199999999997204
+433	Jesiel	Atlético-MG	Zagueiro	3.2099999999995896
+434	Cascardo	Atlético-PR	Lateral	3.1700000000000665
+435	Kazim	Corinthians	Atacante	3.1700000000000665
+436	Robert 	Fluminense	Meia	3.1499999999997477
+437	Fillipe Soutto	Vitória	Meia	3.1499999999997477
+438	Marlon Freitas	Fluminense	Meia	3.1499999999997477
+439	Dudu Cearense	Botafogo	Meia	3.1399999999997963
+440	Luan Peres 	Ponte Preta	Zagueiro	3.129999999999668
+441	Cristian	Grêmio	Meia	3.1200000000003305
+442	Éder Militão	São Paulo	Meia	3.1100000000002
+443	Lennon	Cruzeiro	Lateral	3.0900000000001215
+444	Jean Patrick	Ponte Preta	Lateral	3.0799999999999335
+445	Leandrinho	Botafogo	Meia	3.0699999999998058
+446	Willians	Avaí	Atacante	3.059999999999858
+447	Lugano	São Paulo	Zagueiro	3.049999999999732
+448	Antônio Carlos 	Palmeiras	Zagueiro	3.049999999999732
+449	Wesley	Sport	Meia	3.0300000000002556
+450	Matheus Sales	Bahia	Meia	3.0300000000002556
+451	Moisés	Corinthians	Lateral	3.0200000000003135
+452	Éderson	Atlético-PR	Atacante	3.0200000000003135
+453	Osman	Chapecoense	Atacante	2.989999999999813
+454	Lucas Rocha	Vasco	Zagueiro	2.989999999999813
+455	Marquinho	Fluminense	Meia	2.9799999999996882
+456	William Alves	Atlético-GO	Zagueiro	2.9799999999996882
+457	Léo Cittadini	Santos	Meia	2.9699999999997524
+458	João Paulo	Santos	Goleiro	2.9699999999997524
+459	Rodrigão	Atlético-MG	Zagueiro	2.9699999999997524
+460	Fellipe Bastos	Corinthians	Meia	2.9699999999997524
+461	Lucas Otávio 	Avaí	Meia	2.9599999999996287
+462	Ricardo Silva	Atlético-GO	Zagueiro	2.9400000000001274
+463	Eduardo Henrique	Atlético-PR	Meia	2.8999999999997574
+464	Rodrigo Ramos	Coritiba	Lateral	2.889999999999829
+465	Fernando Guerrero	Chapecoense	Meia	2.889999999999829
+466	Douglas Coutinho 	Atlético-PR	Atacante	2.870000000000289
+467	Denilson	São Paulo	Atacante	2.8600000000001664
+468	Murilo	Cruzeiro	Zagueiro	2.850000000000241
+469	Nonoca	Cruzeiro	Meia	2.829999999999934
+470	Caio Monteiro	Vasco	Atacante	2.7999999999997733
+471	Fernandes	Botafogo	Meia	2.7999999999997733
+472	Paulo Roberto	Corinthians	Meia	2.7999999999997733
+473	Pablo	Atlético-PR	Atacante	2.75
+474	Vinicius Junior	Flamengo	Atacante	2.75
+475	Nogueira	Fluminense	Zagueiro	2.7199999999997897
+476	Leonan	Atlético-MG	Lateral	2.690000000000092
+477	Lucas	Fluminense	Lateral	2.690000000000092
+478	Cleberson	Atlético-PR	Zagueiro	2.690000000000092
+479	Jorge Mendoza	Ponte Preta	Meia	2.690000000000092
+480	Silva	Atlético-GO	Meia	2.6700000000000657
+481	Lucas Paquetá	Flamengo	Meia	2.6499999999997685
+482	Gabriel	Flamengo	Atacante	2.5900000000001167
+483	Yan	Coritiba	Meia	2.5799999999999343
+484	Léo Principe	Corinthians	Lateral	2.5499999999998226
+485	Caíque França	Corinthians	Goleiro	2.5499999999998226
+486	Renato Chaves	Fluminense	Zagueiro	2.520000000000289
+487	Rafael Marques	Vasco	Zagueiro	2.5
+488	Bressan	Grêmio	Zagueiro	2.5
+489	Keirrison	Coritiba	Atacante	2.469999999999835
+490	Caio César	Avaí	Meia	2.440000000000049
+491	Júlio César 	Chapecoense	Atacante	2.440000000000049
+492	Robinho	Fluminense	Atacante	2.430000000000169
+493	Jonathan	Atlético-GO	Lateral	2.430000000000169
+494	Bruno Bispo	Vitória	Zagueiro	2.4200000000000648
+495	Lucas Mineiro	Chapecoense	Meia	2.4200000000000648
+496	Raniel	Cruzeiro	Atacante	2.3999999999997823
+497	Evander	Vasco	Meia	2.3999999999997823
+498	Léo Artur	Ponte Preta	Meia	2.379999999999816
+499	Jean Pineda	Vitória	Atacante	2.379999999999816
+500	Marquinhos	Avaí	Meia	2.3700000000001817
+501	Orinho	Santos	Lateral	2.3500000000002146
+502	Gustavo Blanco	Atlético-MG	Meia	2.3400000000001135
+503	Alan Ruschel	Chapecoense	Lateral	2.299999999999882
+504	Filigrana	Coritiba	Atacante	2.299999999999882
+505	Luanzinho	Avaí	Meia	2.2900000000002243
+506	Messidoro	Cruzeiro	Meia	2.2800000000001246
+507	René	Vitória	Zagueiro	2.260000000000177
+508	Índio	Sport	Atacante	2.260000000000177
+509	Nenén	Chapecoense	Meia	2.22999999999973
+510	Neris	Sport	Zagueiro	2.2199999999998896
+511	Bruno Cosendey	Vasco	Meia	2.209999999999799
+512	Shaylon	São Paulo	Meia	2.1899999999999964
+513	Patrick	Grêmio	Meia	2.139999999999973
+514	Arthur Gomes	Santos	Atacante	2.1200000000001085
+515	Yago	Atlético-MG	Meia	2.010000000000172
+516	Vinícius Tanque	Botafogo	Atacante	1.9599999999998847
+517	Luiz Fernando 	Fluminense	Meia	1.9399999999999302
+518	Carlos Eduardo	Vitória	Meia	1.9399999999999302
+519	Conrado	Grêmio	Meia	1.870000000000016
+520	Armero	Bahia	Lateral	1.8599999999999437
+521	Paulo Vitor	Vasco	Atacante	1.8599999999999437
+522	Moisés	Chapecoense	Meia	1.8000000000000516
+523	Perotti	Chapecoense	Atacante	1.8000000000000516
+524	Alecsandro	Coritiba	Atacante	1.7900000000000433
+525	Klever	Atlético-GO	Goleiro	1.7900000000000433
+526	Maranhão	Ponte Preta	Atacante	1.7799999999999756
+527	Everson	Bahia	Zagueiro	1.7600000000001654
+528	Carlinhos	Corinthians	Atacante	1.7099999999999955
+529	Felipe Saraiva	Ponte Preta	Meia	1.699999999999903
+530	Everton Heleno	Atlético-GO	Meia	1.699999999999903
+531	Bremer	Atlético-MG	Zagueiro	1.6800000000001143
+532	Maurinho	Avaí	Atacante	1.6499999999998487
+533	Airton 	Avaí	Zagueiro	1.6000000000001446
+534	Rodrigo Pelezinho	Chapecoense	Atacante	1.5900000000000987
+535	Romarinho	Fluminense	Atacante	1.579999999999939
+536	Mateus Norton	Fluminense	Meia	1.5600000000001653
+537	Rafaelson	Vitória	Atacante	1.5399999999999667
+538	Jomar	Vasco	Zagueiro	1.5
+539	Andrey	Vasco	Meia	1.4899999999998441
+540	Matheus Alessandro	Fluminense	Atacante	1.4799999999998144
+541	Matheus Oliveira	Santos	Meia	1.4300000000000832
+542	Araruna	São Paulo	Meia	1.4300000000000832
+543	Elder Santana	Atlético-MG	Atacante	1.3999999999998867
+544	Marquinho	Atlético-MG	Meia	1.3800000000000923
+545	Fabrício	Sport	Meia	1.3699999999999077
+546	Matheus Mancini	Atlético-MG	Zagueiro	1.3599999999998948
+547	Feijão	Bahia	Meia	1.34000000000009
+548	Júnior Brumado	Bahia	Atacante	1.25
+549	Serginho	Santos	Meia	1.2100000000000324
+550	Saulo	Botafogo	Goleiro	1.1800000000000392
+551	Luis Ali	Ponte Preta	Atacante	1.1599999999999184
+552	Gabriel Félix	Vasco	Goleiro	1.1599999999999184
+553	Peu	Fluminense	Atacante	1.1599999999999184
+554	Vecchio	Santos	Meia	1.1199999999999115
+555	Rafael Longuine	Coritiba	Meia	1.0799999999999446
+556	Frazan	Fluminense	Zagueiro	1.0600000000000542
+557	Yuri	Ponte Preta	Atacante	1.0500000000000984
+558	Ralph	Atlético-MG	Meia	1.039999999999968
+559	Júnior	Vitória	Atacante	1.0200000000000726
+560	Luquinhas	Fluminense	Meia	1.0100000000001264
+561	Cleiton	Atlético-MG	Goleiro	1.0
+562	Jean Pyerre	Grêmio	Meia	1.0
+563	Thalisson Kelven	Coritiba	Zagueiro	0.9899999999998755
+564	Thallyson	Vitória	Lateral	0.9600000000000315
+565	Matheus Anjos	Atlético-PR	Meia	0.9299999999999718
+566	Léo Natel	São Paulo	Atacante	0.9200000000000526
+567	Zé Ivaldo	Atlético-PR	Zagueiro	0.9200000000000526
+568	Nadson	Chapecoense	Meia	0.9000000000000258
+569	Juninho	Sport	Atacante	0.9000000000000258
+570	Brenner	São Paulo	Atacante	0.8800000000000827
+571	Pedrinho	Corinthians	Atacante	0.8800000000000827
+572	Capixaba	Atlético-MG	Atacante	0.8699999999999176
+573	Thallyson	Sport	Meia	0.8299999999999497
+574	Éder 	Bahia	Zagueiro	0.8099999999999526
+575	Lourenço	Avaí	Atacante	0.8000000000000723
+576	Bruno Guimarães	Atlético-PR	Meia	0.7899999999999695
+577	Gabriel Furtado	Palmeiras	Meia	0.7899999999999695
+578	Luizão	Coritiba	Zagueiro	0.7899999999999695
+579	Jonata	Cruzeiro	Atacante	0.7899999999999695
+580	Claudinho	Ponte Preta	Atacante	0.7899999999999695
+581	Wellington	Vasco	Meia	0.7899999999999695
+582	Anderson	Bahia	Goleiro	0.7899999999999695
+583	Getterson	Coritiba	Atacante	0.7899999999999695
+584	Yuri	Santos	Meia	0.7899999999999695
+585	Lucas Campos	Botafogo	Atacante	0.7899999999999695
+586	Lucas Formiga	Ponte Preta	Atacante	0.7899999999999695
+587	Emerson	Ponte Preta	Lateral	0.7899999999999695
+588	Emerson Santos	Botafogo	Zagueiro	0.7800000000000826
+589	Dionathã	Grêmio	Atacante	0.7800000000000826
+590	Renan Gorne	Botafogo	Atacante	0.7600000000000962
+591	Evandro	Sport	Lateral	0.7600000000000962
