@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css" type='text/css'>
+</head>
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+}
+
+div {
+  height: 320px;
+  width: 320px;
+  display: inline-table;
+  background-size: cover;
+  margin: 0px 0 0 0;
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+  }
+div.Menu {
+  height: 30px;
+  width: 100%;
+  display: inline-table;
+  background-color: blue;
+  background-size: cover;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  }
+#botoes {
+  float: left;
+  text-align:bottom;
+}
+p{
+  font-family:sans-serif;
+  font-weight: bold;
+  color:white;
+  font-size:160%;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin: 0px 0 0 0;
+  top:7px;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  padding: 0px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ddd;
+  pointer-events: none;
+}
+
+div.graf {
+    display: inline-block;
+    height: 330px;
+    width: 300px;
+    border: 0px solid transparent;
+    background-size: cover;
+    margin: 0px 0 0 0;
+    border-radius: 12px;
+    border: 1px solid lightgrey;
+}
+
+div.titulo{
+    font-size: 100%;
+    font-family:sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    height: 20px;
+    width: 300px;
+    border: 0px solid transparent;
+    text-align: center;
+    margin-top: 10px;   
+}
+
+</style>
+<body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="histogram.js"></script>
+<script>
+  function answers(){
+
+    var todostimes = [];
+    d3.csv("listatimes.txt", function(data) {
+    data.forEach(function(entry){
+    todostimes.push(entry.time);
+    });
+    });
+
+    var todasPosicoes = [];
+    d3.csv("listaposicoes.txt", function(data) {
+    data.forEach(function(entry){
+      todasPosicoes.push(entry.posicao);
+    });
+    });
+    
+    $('div.graf').remove();
+
+    var answer=document.getElementById("mySelect");
+    var answer2=document.getElementById("mySelect2");
+
+  var timeselecionado = answer[answer.selectedIndex].value;
+  if (timeselecionado == "nulo") {
+    var vtimes = [];
+  } else {
+    var vtimes = [timeselecionado];
+  };
+  
+  
+  if (vtimes.length == 0) {
+    vtimes=todostimes;
+  };
+  
+  var posicaoselecionada = answer2[answer2.selectedIndex].value;
+  if (posicaoselecionada == "nulo") {
+    var vposicao = [];
+  } else {
+    if (posicaoselecionada == "Todas") {
+      var vposicao = todasPosicoes;
+    } else {
+      var vposicao = [posicaoselecionada];
+    };
+  };
+
+
+  if (vtimes.length == 0) {
+    
+      if (vposicao.length  == 1) {
+        vtimes=todostimes;
+      } else {
+        vposicao=['Goleiro'];
+      };
+  } else {
+    if (vposicao.length == 0) {
+      vposicao=todasPosicoes;
+    }
+    };
+     
+  function contains(a, obj) {
+      var i = a.length;
+      while (i--) {
+         if (a[i] === obj) {
+             return true;
+         }
+      }
+      return false;
+  }
+
+  console.log(vtimes);
+  console.log(vposicao);
+
+  d3.tsv("lista.csv", function(data) {
+      
+    data.forEach(function(entry){
+      // document.body.innerHTML += '<div> <embed height=320 width=320 src="'+ entry.Jogador +'"></div>';
+      
+      if(contains(vtimes,entry.Time)) {
+        if(contains(vposicao, entry.Posicao)) {
+          console.log(entry.Time);
+          console.log(entry.Posicao);
+          console.log(entry.index);
+          histogram('./Graf/file_' + entry.index + '.csv', entry.Jogador, entry.preco_cartoleta);
+        //document.body.innerHTML += '<div>'+ entry.Jogador +'</div>';
+        //document.body.innerHTML += '<div class="Graf"> <embed height=320 width=320 src="'+ entry.Arquivo +'"></div>';
+        };
+      };
+    });
+  });
+
+
+};
+</script>
+
+<div class="Menu">
+<form class="pure-form pure-form-stacked" id="botoes">
+  <!--<div class="answer1wrap">-->
+    <select id="mySelect" name='form1' >
+    <option value="nulo">Selecione o Time</option>
+    <option value="Atlético-GO">Atlético-GO</option>
+    <option value="Atlético-MG">Atlético-MG</option>
+    <option value="Atlético-PR">Atlético-PR</option>
+    <option value="Avaí">Avaí</option>
+    <option value="Bahia">Bahia</option>
+    <option value="Botafogo">Botafogo</option>
+    <option value="Chapecoense">Chapecoense</option>
+    <option value="Corinthians">Corinthians</option>
+    <option value="Coritiba">Coritiba</option>
+    <option value="Cruzeiro">Cruzeiro</option>
+    <option value="Flamengo">Flamengo</option>
+    <option value="Fluminense">Fluminense</option>
+    <option value="Grêmio">Grêmio</option>
+    <option value="Palmeiras">Palmeiras</option>
+    <option value="Ponte Preta">Ponte Preta</option>
+    <option value="Santos">Santos</option>
+    <option value="Sport">Sport</option>
+    <option value="São Paulo">São Paulo</option>
+    <option value="Vasco">Vasco</option>
+    <option value="Vitória">Vitória</option>
+  </select>
+  <!--</div>-->
+</form>
+
+<form class="pure-form pure-form-stacked" id="botoes">
+  <!--<div class="answer1wrap">-->
+  <select id="mySelect2" name='form2'>
+    <option value="nulo">Selecione a Posicao</option>
+    <option value="Goleiro">Goleiro</option>
+    <option value="Lateral">Lateral</option>
+    <option value="Zagueiro">Zagueiro</option>
+    <option value="Meia">Meia</option>
+    <option value="Atacante">Atacante</option>
+    <option value="Todas">Todas</option>
+  
+  </select>
+</form>
+  
+<button  onclick="answers();" id="botoes" type="button" class="pure-button pure-button-primary">Atualizar</button>
+
+</div>
+
+
+
+</body>
